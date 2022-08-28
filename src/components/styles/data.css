@@ -1,0 +1,13 @@
+.data__container {
+    display: flex;
+}
+
+.data__data {
+    margin-top: 1%;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3vh;
+    display: flex;
+    padding: 2%;
+    text-align: center;
+}

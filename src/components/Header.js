@@ -1,16 +1,17 @@
 import './styles/header.css';
+import logoOne from '../images/logo_uno.png';
+import logoTwo from '../images/logo_dos.png';
 
 function Header() {
     return (
         <div className='row header__container'>
-            <div className='col-8 header_one'>
-                Logo1
+            <div className='col-7 header_one'>
+                <img alt="Clan's name" src={logoOne} />
             </div>
             <div className='col header_two'>
-                Logo 2
+                <img alt="Clan's logo" src={logoTwo} />
             </div>
         </div>
-
     );
 }
 
