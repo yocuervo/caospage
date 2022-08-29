@@ -25,7 +25,7 @@ function Members() {
                 <span>Lider</span>
                     <div className='players_general_container'>
                         <div className='player__container'>
-                            <img src={ fotoTigre } />
+                            <img alt='foto de miembro' src={ fotoTigre } />
                             <div>TigreSerrano</div>
                             <span>
                                 ⚡el amado lider <br/>
@@ -37,18 +37,8 @@ function Members() {
                     </div>
                 <span>Oficiales</span>
                     <div className='players_general_container'>
-                        <div className='player__container'>
-                            <img src={ fotoCuervo } />
-                            <div>Yo.Cuervo</div>
-                            <span>
-                                ⚡Qliaaaaado <br/>
-                                ⚡El que se caga en dios <br/>
-                                ⚡0 sacrasmo <br/>
-                                ⚡la lala <br/>
-                            </span>
-                        </div>
-                        <div className='player__container'>
-                            <img src={ fotoNicol } />
+                        <div className='mt-4 player__container'>
+                            <img alt='foto de miembro' src={ fotoNicol } />
                             <div>NicoThePig</div>
                             <span>
                                 ⚡La colorada <br/>
@@ -57,8 +47,18 @@ function Members() {
                                 y no juega <br/>
                             </span>
                         </div>
-                        <div className='player__container'>
-                            <img src={ fotoFibe } />
+                        <div className='mb-4 player__container'>
+                            <img alt='foto de miembro' src={ fotoCuervo } />
+                            <div>Yo.Cuervo</div>
+                            <span>
+                                ⚡Qliaaaaado <br/>
+                                ⚡El que se caga en dios <br/>
+                                ⚡0 sacrasmo <br/>
+                                ⚡la lala <br/>
+                            </span>
+                        </div>
+                        <div className='mt-4 player__container'>
+                            <img alt='foto de miembro' src={ fotoFibe } />
                             <div>Fibe</div>
                             <span>
                                 ⚡Puteador Serial <br/>
@@ -71,7 +71,7 @@ function Members() {
                 <span>Miembros</span>
                     <div className='players_general_container'>
                         <div className='player__container'>
-                            <img src={ fotoCuervo } />
+                            <img alt='foto de miembro' src={ fotoCuervo } />
                             <div>Yo.Cuervo</div>
                             <span>
                                 ⚡Qliaaaaado <br/>
@@ -81,7 +81,7 @@ function Members() {
                             </span>
                         </div>
                         <div className='player__container'>
-                            <img src={ fotoNicol } />
+                            <img alt='foto de miembro' src={ fotoNicol } />
                             <div>NicoThePig</div>
                             <span>
                                 ⚡La colorada <br/>
@@ -91,7 +91,7 @@ function Members() {
                             </span>
                         </div>
                         <div className='player__container'>
-                            <img src={ fotoFibe } />
+                            <img alt='foto de miembro' src={ fotoFibe } />
                             <div>Fibe</div>
                             <span>
                                 ⚡Puteador Serial <br/>
@@ -101,7 +101,7 @@ function Members() {
                             </span>
                         </div>
                         <div className='player__container'>
-                            <img src={ fotoTigre } />
+                            <img alt='foto de miembro' src={ fotoTigre } />
                             <div>TigreSerrano</div>
                             <span>
                                 ⚡el amado lider <br/>
@@ -111,10 +111,12 @@ function Members() {
                             </span>
                         </div>
                     </div>
+                    {/* Span divisor para un nuevo grupo de 4 miembros */}
                         <span />
+                    {/* Span divisor para un nuevo grupo de 4 miembros */}
                     <div className='players_general_container'>
                         <div className='player__container'>
-                            <img src={ fotoCuervo } />
+                            <img alt='foto de miembro' src={ fotoCuervo } />
                             <div>Yo.Cuervo</div>
                             <span>
                                 ⚡Qliaaaaado <br/>
@@ -124,7 +126,7 @@ function Members() {
                             </span>
                         </div>
                         <div className='player__container'>
-                            <img src={ fotoNicol } />
+                            <img alt='foto de miembro' src={ fotoNicol } />
                             <div>NicoThePig</div>
                             <span>
                                 ⚡La colorada <br/>
@@ -134,7 +136,7 @@ function Members() {
                             </span>
                         </div>
                         <div className='player__container'>
-                            <img src={ fotoFibe } />
+                            <img alt='foto de miembro' src={ fotoFibe } />
                             <div>Fibe</div>
                             <span>
                                 ⚡Puteador Serial <br/>
@@ -144,7 +146,7 @@ function Members() {
                             </span>
                         </div>
                         <div className='player__container'>
-                            <img src={ fotoTigre } />
+                            <img alt='foto de miembro' src={ fotoTigre } />
                             <div>TigreSerrano</div>
                             <span>
                                 ⚡el amado lider <br/>

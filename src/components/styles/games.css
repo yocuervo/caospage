@@ -24,20 +24,18 @@
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 10vh;
-    padding: 2%;
+    margin-top: 2%;
     text-align: center;
 }
 
 .games__list_container {
-    padding: 1%;
 }
 
 .games__list_game {
-    display: flex;
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 3vh;
-    padding: 2%;
+    padding: 3%;
 }
 
 .games__list_game > img {
