@@ -1,0 +1,45 @@
+/* css general para los titulos */
+
+.games__container {
+    margin-top: 6%;
+}
+
+.games__header {
+    text-align: center;
+}
+
+.games__header > img {
+    width: 22%;
+}
+
+/* Cada uno de los Juegos */
+
+.games__list {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.games__list_name {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 10vh;
+    padding: 2%;
+    text-align: center;
+}
+
+.games__list_container {
+    padding: 1%;
+}
+
+.games__list_game {
+    display: flex;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3vh;
+    padding: 2%;
+}
+
+.games__list_game > img {
+    width: 100%;
+}
