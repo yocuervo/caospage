@@ -9,9 +9,8 @@ import React from 'react';
 
 function Members() {
     return (
-            <React.Fragment>
-                <section id='section1' />
                 <div className='members__container'>
+                <section id='section1' />
                     <div className='members__header'>
                         <img src={ imgIntegrantes } alt="Another clan's Logo" />
                     </div>
@@ -161,7 +160,6 @@ function Members() {
                             </div>
                     </div>
                 </div>
-            </React.Fragment>
      );
 }
 

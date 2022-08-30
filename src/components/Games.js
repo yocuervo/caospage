@@ -14,9 +14,8 @@ AOS.init();
 function Games() {
     
     return (
-        <React.Fragment>
-            <section id='section2' />
-            <div className='games__container'>
+        <div className='games__container'>
+                <section id='section2' />
                 <div className='games__header'>
                     <img src={ imgGames } />
                 </div>
@@ -113,7 +112,6 @@ function Games() {
 
                 </div>
             </div>
-        </React.Fragment>
      );
 }
 

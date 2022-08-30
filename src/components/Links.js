@@ -17,9 +17,8 @@ function youTubeCuervo () {
 
 function Links() {
     return (
-        <React.Fragment>
-            <section id='section4' />
             <div className='links__container'>
+            <section id='section4' />
                 <div className='links__header'>
                     <img alt='imagen separadora' src={ imgLinks } />
                 </div>
@@ -33,7 +32,6 @@ function Links() {
                         <button className='btn btn-outline-dark' onClick={ youTubeCuervo }>Yo.Cuervo</button>
                     </div>
             </div>
-        </React.Fragment>
      );
 }
 

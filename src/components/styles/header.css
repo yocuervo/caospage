@@ -1,3 +1,7 @@
+.header__container {
+    width: 100%;
+}
+
 .header_one {
     display: flex;
     justify-content: center;

@@ -13,9 +13,9 @@ function toLinkedin() {
 
 function Footer() {
     return (
-        <React.Fragment>
+        <div className='footer__container__dev'>
             <hr className='footer__line' />
-            <div className='footer__container__dev'>
+            <div className='footer__container__dev_info'>
                     Página web desarrollada por Exequiel Adrian Loustau. 2022
                     <button className='btn btn-outline-dark footer__button' onClick={ toMail }>
                         <img alt='logo mail' src={ logoMail } />
@@ -24,7 +24,7 @@ function Footer() {
                         <img alt='logo linkedin' src={ logoLinkedin } />
                     </button>
                 </div>
-        </React.Fragment>
+        </div>
      );
 }
 

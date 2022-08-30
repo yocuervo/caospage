@@ -1,4 +1,8 @@
-.footer__container__dev {
+.footer__container__dev_info {
+    width: 100%;
+}
+
+.footer__container__dev_info {
     color: aliceblue;
     font-size: 14px;
     padding: 1%;

@@ -4,9 +4,8 @@ import React from 'react';
 
 function Meeting() {
     return ( 
-        <React.Fragment>
-            <section id='section3' />
             <div className='meeting__container'>
+                <section id='section3' />
                     <div className='meeting__header'>
                         <img src={ imgMeet } alt="Another clan's Logo" />
                     </div>
@@ -14,7 +13,6 @@ function Meeting() {
                     Juntada
                 </div>
             </div>
-        </React.Fragment>
      );
 }
 

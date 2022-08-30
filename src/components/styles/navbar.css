@@ -1,5 +1,6 @@
 .navbar__container {
     text-align: center;
+    width: 100%;
     padding: 2%;
     display: flex;
     justify-content: center;
