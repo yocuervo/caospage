@@ -1,6 +1,7 @@
 import './styles/links.css';
 
-import imgLinks from '../images/logo_seis.png';
+import imgLinks from '../images/logo_redes.png';
+import React from 'react';
 
 function youTubeClan () {
     window.open('https://www.youtube.com/channel/UCa_GEyk5nmZKX6icr0o8A5w');
@@ -15,11 +16,13 @@ function youTubeCuervo () {
 };
 
 function Links() {
-    return ( 
-        <div className='links__container'>
-            <div className='links__header'>
-                <img alt='imagen separadora' src={ imgLinks } />
-            </div>
+    return (
+        <React.Fragment>
+            <section id='section4' />
+            <div className='links__container'>
+                <div className='links__header'>
+                    <img alt='imagen separadora' src={ imgLinks } />
+                </div>
                 <div className='links__clan'>Redes del Clan</div>
                     <div className='links__buttons'>
                         <button className='btn btn-outline-dark' onClick={ youTubeClan }>YouTube</button>
@@ -29,7 +32,8 @@ function Links() {
                     <div className='links__buttons'>
                         <button className='btn btn-outline-dark' onClick={ youTubeCuervo }>Yo.Cuervo</button>
                     </div>
-        </div>
+            </div>
+        </React.Fragment>
      );
 }
 
