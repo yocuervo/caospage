@@ -1,3 +1,4 @@
+import React from 'react';
 import './styles/games.css';
 import imgGames from '../images/logo_juegos.png';
 import imgAssassins from '../images/games_assassins.png';
@@ -5,9 +6,13 @@ import imgPaladins from '../images/games_paladins.png';
 import imgWarface from '../images/games_warface.png';
 import imgIron from '../images/games_iron.png';
 import imgRainbow from '../images/games_rainbow.png';
-import React from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init();
 
 function Games() {
+    
     return (
         <React.Fragment>
             <section id='section2' />
@@ -17,12 +22,12 @@ function Games() {
                 </div>
                 <div className='games__list'>
 
-                    <div className='games__list_name'>Assassin's Creed</div>
+                    <div data-aos='fade-up' data-aos-delay='300' className='games__list_name'>Assassin's Creed</div>
                         <div className='row games__list_container'>
-                            <div className='col games__list_game'>
+                            <div data-aos='fade-up-right' data-aos-delay='300' className='col games__list_game'>
                                 <img src={ imgAssassins } />
                             </div>
-                            <div className='col games__list_game'>
+                            <div data-aos='fade-up-left' data-aos-delay='300' className='col games__list_game'>
                                 Assassin’s Creed: El juego donde todo comenzó, el que encendió la llama de nuestra HERMANDAD.<br/>
                                 Justamente allí entre el Brotherhood y el Revelations fué que comenzamos a cruzarnos un pequeño 
                                 grupo de latinos, en un server europeo donde lográbamos destacarnos y competir a pesar de la enorme 
@@ -41,26 +46,26 @@ function Games() {
                             </div>
                         </div>
 
-                        <div className='games__list_name'>Warface</div>
+                        <div data-aos='fade-up' data-aos-delay='300' className='games__list_name'>Warface</div>
                         <div className='row games__list_container'>
-                            <div className='col games__list_game'>
+                            <div data-aos='fade-up-right' data-aos-delay='300' className='col games__list_game'>
                                 jugando descubrimos que el juego ya no progresaba y no nos retribuía de la misma 
                                 forma, la constante pelea por un servidor en Latinoamérica y el deterioro del mismo 
                                 nos llevó nuevamente a abrir el abanico de opciones y salir en busca de un nuevo 
                                 proyecto. Para cuando Warface tenía su servidor regional a nosotros ya no nos 
                                 llenaba con la misma ilusión de un principio
                             </div>
-                            <div className='col games__list_game'>
+                            <div data-aos='fade-up-left' data-aos-delay='300' className='col games__list_game'>
                                 <img src={ imgWarface } />
                             </div>
                         </div>
 
-                        <div className='games__list_name'>Paladins</div>
+                        <div data-aos='fade-up' data-aos-delay='300' className='games__list_name'>Paladins</div>
                         <div className='row games__list_container'>
-                            <div className='col games__list_game'>
+                            <div data-aos='fade-up-right' data-aos-delay='300' className='col games__list_game'>
                                 <img src={ imgPaladins } />
                             </div>
-                            <div className='col games__list_game'>
+                            <div data-aos='fade-up-left' data-aos-delay='300' className='col games__list_game'>
                                 Tuvimos un breve paso por este juego en el año 2017, frente al constante fallo de los 
                                 servidores de Assassins Creed empezamos a buscar un nuevo juego para compartir y
                                 continuar con la mecánica de dos juegos en nuestro evento semanal Jueves de Caos, 
@@ -69,9 +74,9 @@ function Games() {
                             </div>
                         </div>
 
-                        <div className='games__list_name'>Ironsight</div>
+                        <div data-aos='fade-up' data-aos-delay='300' className='games__list_name'>Ironsight</div>
                         <div className='row games__list_container'>
-                            <div className='col games__list_game'>
+                            <div data-aos='fade-up-right' data-aos-delay='300' className='col games__list_game'>
                                 Este juego nació casi como una necesidad impostergable en el clan. Una mezcla de cansancio 
                                 e impotencia debido a la falta de server regional en Warface le puso fin a nuestra historia 
                                 en ese juego y le dió paso a este frenético y renovador shooter llamado Ironsight.<br/>
@@ -81,17 +86,17 @@ function Games() {
                                 Desde finales del año 2019 hasta el día de hoy, es uno de los juegos que aún siguen siendo 
                                 referentes en los eventos del clan.
                             </div>
-                            <div className='col games__list_game'>
+                            <div data-aos='fade-up-left' data-aos-delay='300' className='col games__list_game'>
                                 <img src={ imgIron } />
                             </div>
                         </div>
 
-                        <div className='games__list_name'>Rainbow Six Siege</div>
+                        <div data-aos='fade-up' data-aos-delay='300' className='games__list_name'>Rainbow Six Siege</div>
                         <div className='row games__list_container'>
-                            <div className='col games__list_game'>
+                            <div data-aos='fade-up-right' data-aos-delay="300" className='col games__list_game'>
                                 <img src={ imgRainbow } />
                             </div>
-                            <div className='col games__list_game'>
+                            <div data-aos='fade-up-left' data-aos-delay='300' className='col games__list_game'>
                                 Después de una exhaustiva búsqueda por ampliar nuestro repertorio de juegos nos llega 
                                 después de muchos años la opción de pasar a un juego de paga nuevamente (estuvimos mucho 
                                 tiempo en juegos F2P). Y así surge la idea de darle una chance a Rainbow Six Siege un juego 
