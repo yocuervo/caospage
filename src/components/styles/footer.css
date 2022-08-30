@@ -1,10 +1,9 @@
-.footer__container {
-    margin-top: 8%;
+.footer__container__dev {
     color: aliceblue;
     font-size: 14px;
     padding: 1%;
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -15,4 +14,14 @@
 
 .footer__button > img {
     height: 15px;
+}
+
+.footer__line {
+    color: gray;
+    margin-top: 8%;
+    width: 70%;
+    margin-left: 15%;
+    height: 12px;
+    box-shadow: inset 0 12px 12px -12px white;
+    border-radius: 25%;
 }

@@ -14,10 +14,10 @@ function Members() {
             </div>
             <div className='members__data'>
                 Actualmente, año 2022, seguimos activos y jugando en los eventos semanales que tenemos, y si bien 
-                tenemos un grupo solido de miembros, han sido muchas las personas que pasaron por este clan, 
+                contamos con un grupo solido de miembros, han sido muchas las personas que pasaron por este clan, 
                 desde jugadores que compartieron solo algunos momentos, hasta verdaderos amigos quienes entendieron 
-                de que se trata Caos, a todos y cada uno de ellos les estamos agradecidos, porque absolutamente de
-                todos los comportamientos humanos, siempre se aprende algo.
+                de que se trata Caos; A todos y cada uno de ellos les estamos agradecidos, porque absolutamente de
+                todos los comportamientos humanos, siempre se aprende algo. <br/>
                 Como todo clan, manejamos un orden de rangos que simplemente nos permite organizarnos y exponemos
                 en esta grilla los miembros mas unidos al clan hasta el momento...
             </div>

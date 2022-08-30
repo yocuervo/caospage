@@ -1,0 +1,12 @@
+.meeting__container {
+    margin-top: 2%;
+}
+
+.meeting__title {
+    color: antiquewhite;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    font-size: 8vh;
+    text-align: center;
+}
