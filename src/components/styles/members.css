@@ -3,6 +3,7 @@
 .members__container {
     margin-top: 6%;
     width: 100%;
+    overflow: hidden;
 }
 
 .members__header {
@@ -31,6 +32,7 @@
 
 .members__members {
     margin-top: 1%;
+    margin-bottom: 7%;
     justify-content: center;
 }
 
@@ -41,7 +43,7 @@
     color: rgb(119, 6, 6);
     font-family: monospace;
     font-weight: bold;
-    font-size: 3vh;
+    font-size: 3.5vh;
     text-decoration: underline;
     text-align: center;
 }

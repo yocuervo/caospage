@@ -70,7 +70,9 @@ function Members() {
                                     </span>
                                 </div>
                             </div>
-                        <span>Miembros</span>
+                            {/* Span divisor para un nuevo grupo de 4 miembros */}
+                            <span>Miembros</span>
+                            {/* Span divisor para un nuevo grupo de 4 miembros */}
                             <div className='players_general_container'>
                                 <div className='player__container'>
                                     <img alt='foto de miembro' src={ fotoCuervo } />
@@ -116,48 +118,6 @@ function Members() {
                             {/* Span divisor para un nuevo grupo de 4 miembros */}
                                 <span />
                             {/* Span divisor para un nuevo grupo de 4 miembros */}
-                            <div className='players_general_container'>
-                                <div className='player__container'>
-                                    <img alt='foto de miembro' src={ fotoCuervo } />
-                                    <div>Yo.Cuervo</div>
-                                    <span>
-                                        ⚡Qliaaaaado <br/>
-                                        ⚡El que se caga en dios <br/>
-                                        ⚡0 sacrasmo <br/>
-                                        ⚡la lala <br/>
-                                    </span>
-                                </div>
-                                <div className='player__container'>
-                                    <img alt='foto de miembro' src={ fotoNicol } />
-                                    <div>NicoThePig</div>
-                                    <span>
-                                        ⚡La colorada <br/>
-                                        ⚡el Profe <br/>
-                                        ⚡el que propone juegos <br/>
-                                        y no juega <br/>
-                                    </span>
-                                </div>
-                                <div className='player__container'>
-                                    <img alt='foto de miembro' src={ fotoFibe } />
-                                    <div>Fibe</div>
-                                    <span>
-                                        ⚡Puteador Serial <br/>
-                                        ⚡enferrrrrrrmo <br/>
-                                        ⚡Sr Lag <br/>
-                                        ⚡La gatita de Angora <br/>
-                                    </span>
-                                </div>
-                                <div className='player__container'>
-                                    <img alt='foto de miembro' src={ fotoTigre } />
-                                    <div>TigreSerrano</div>
-                                    <span>
-                                        ⚡el amado lider <br/>
-                                        ⚡borrachio <br/>
-                                        ⚡el rayas <br/>
-                                        ⚡carniceeeero <br/>
-                                    </span>
-                                </div>
-                            </div>
                     </div>
                 </div>
      );

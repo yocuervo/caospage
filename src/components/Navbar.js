@@ -1,5 +1,5 @@
 import './styles/navbar.css';
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link } from 'react-scroll';
 
 function Navbar() {
     return ( 
@@ -10,14 +10,14 @@ function Navbar() {
                 <Link   type="button" className='btn btn-outline-dark navbar__buttons'
                         activeClass='Active'
                         to='section1'
-                        offset={40}
+                        offset={0}
                         >Integrantes</Link>
 
                 <Link   type="button" 
                         className='btn btn-outline-dark navbar__buttons'
                         activeClass='Active'
                         to='section2'
-                        offset={40}
+                        offset={-10}
                         >Juegos</Link>
 
                 <Link   type="button" 
@@ -25,13 +25,13 @@ function Navbar() {
                         activeClass='Active'
                         to='section3'
                         offset={0}
-                        >Reunion</Link>
+                        >Reuniones</Link>
 
                 <Link   type="button" 
                         className='btn btn-outline-dark navbar__buttons'
                         activeClass='Active'
                         to='section4'
-                        offset={60}
+                        offset={-10}
                         >Redes</Link>
             </div>
         </div>

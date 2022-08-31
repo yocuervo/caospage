@@ -76,12 +76,13 @@ function Games() {
                         <div data-aos='fade-up' data-aos-delay='300' className='games__list_name'>Ironsight</div>
                         <div className='row games__list_container'>
                             <div data-aos='fade-up-right' data-aos-delay='300' className='col games__list_game'>
-                                Este juego nació casi como una necesidad impostergable en el clan. Una mezcla de cansancio 
-                                e impotencia debido a la falta de server regional en Warface le puso fin a nuestra historia 
-                                en ese juego y le dió paso a este frenético y renovador shooter llamado Ironsight.<br/>
-                                En Iron no solamente logramos mantener viva la llama de nuestra hermandad a pesar de la 
-                                incertidumbre que siempre plantea un cambio de juego si no que además logramos, a pesar de 
-                                algunos momentos álgidos, fortalecer el gran espíritu de CAOS.<br/>
+                                Este juego nació casi como una necesidad impostergable en el clan.<br/>
+                                Una mezcla de cansancio e impotencia debido a la falta de server regional en Warface
+                                le puso fin a nuestra historia en este juego y le dió paso a este frenético y renovador 
+                                shooter llamado Ironsight.<br/>
+                                En este juego no solamente logramos mantener viva la llama de nuestra hermandad a pesar 
+                                de la incertidumbre que siempre plantea un cambio de juego si no que además logramos a 
+                                pesar de algunos momentos álgidos fortalecer el gran espíritu de CAOS.<br/>
                                 Desde finales del año 2019 hasta el día de hoy, es uno de los juegos que aún siguen siendo 
                                 referentes en los eventos del clan.
                             </div>

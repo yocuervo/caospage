@@ -3,6 +3,7 @@
 .games__container {
     margin-top: 6%;
     width: 100%;
+    overflow: hidden;
 }
 
 .games__header {

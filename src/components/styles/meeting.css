@@ -1,5 +1,10 @@
+.meeting__container {
+    margin-top: 2%;
+    overflow: hidden;
+}
+
 .meeting__header {
-    margin: 2%;
+    margin-top: 2%;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -8,10 +13,6 @@
 
 .meeting__header > img {
     width: 30%;
-}
-
-.meeting__container {
-    margin-top: 2%;
 }
 
 .meeting__title {
