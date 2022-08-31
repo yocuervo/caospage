@@ -2,6 +2,10 @@ import './styles/header.css';
 import logoOne from '../images/logo_uno.png';
 import logoTwo from '../images/logo_dos.png';
 
+function touchMe() {
+        alert('11111')
+}
+
 function Header() {
     return (
         <div className='row header__container'>
@@ -9,7 +13,7 @@ function Header() {
                 <img alt="Clan's name" src={logoOne} />
             </div>
             <div className='col header_two'>
-                <img alt="Clan's logo" src={logoTwo} />
+                <img onClick={touchMe} alt="Clan's logo" src={logoTwo} />
             </div>
         </div>
     );

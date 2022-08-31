@@ -17,14 +17,14 @@ function Games() {
         <div className='games__container'>
                 <section id='section2' />
                 <div className='games__header'>
-                    <img src={ imgGames } />
+                    <img alt='otro logo del Clan' src={ imgGames } />
                 </div>
                 <div className='games__list'>
 
                     <div data-aos='fade-up' data-aos-delay='300' className='games__list_name'>Assassin's Creed</div>
                         <div className='row games__list_container'>
                             <div data-aos='fade-up-right' data-aos-delay='300' className='col games__list_game'>
-                                <img src={ imgAssassins } />
+                                <img alt='Imagen de Assassins Creed' src={ imgAssassins } />
                             </div>
                             <div data-aos='fade-up-left' data-aos-delay='300' className='col games__list_game'>
                                 Assassin’s Creed: El juego donde todo comenzó, el que encendió la llama de nuestra HERMANDAD.<br/>
@@ -55,14 +55,14 @@ function Games() {
                                 llenaba con la misma ilusión de un principio
                             </div>
                             <div data-aos='fade-up-left' data-aos-delay='300' className='col games__list_game'>
-                                <img src={ imgWarface } />
+                                <img alt='Imagen de Warface' src={ imgWarface } />
                             </div>
                         </div>
 
                         <div data-aos='fade-up' data-aos-delay='300' className='games__list_name'>Paladins</div>
                         <div className='row games__list_container'>
                             <div data-aos='fade-up-right' data-aos-delay='300' className='col games__list_game'>
-                                <img src={ imgPaladins } />
+                                <img alt='Imagen de Paladins' src={ imgPaladins } />
                             </div>
                             <div data-aos='fade-up-left' data-aos-delay='300' className='col games__list_game'>
                                 Tuvimos un breve paso por este juego en el año 2017, frente al constante fallo de los 
@@ -87,14 +87,14 @@ function Games() {
                                 referentes en los eventos del clan.
                             </div>
                             <div data-aos='fade-up-left' data-aos-delay='300' className='col games__list_game'>
-                                <img src={ imgIron } />
+                                <img alt='Imagen de Ironsight' src={ imgIron } />
                             </div>
                         </div>
 
                         <div data-aos='fade-up' data-aos-delay='300' className='games__list_name'>Rainbow Six Siege</div>
                         <div className='row games__list_container'>
                             <div data-aos='fade-up-right' data-aos-delay="300" className='col games__list_game'>
-                                <img src={ imgRainbow } />
+                                <img alt='Imagen de Rainbow 6' src={ imgRainbow } />
                             </div>
                             <div data-aos='fade-up-left' data-aos-delay='300' className='col games__list_game'>
                                 Después de una exhaustiva búsqueda por ampliar nuestro repertorio de juegos nos llega 
