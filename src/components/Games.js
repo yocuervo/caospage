@@ -48,11 +48,19 @@ function Games() {
                         <div data-aos='fade-up' data-aos-delay='300' className='games__list_name'>Warface</div>
                         <div className='row games__list_container'>
                             <div data-aos='fade-up-right' data-aos-delay='300' className='col games__list_game'>
-                                jugando descubrimos que el juego ya no progresaba y no nos retribuía de la misma 
-                                forma, la constante pelea por un servidor en Latinoamérica y el deterioro del mismo 
-                                nos llevó nuevamente a abrir el abanico de opciones y salir en busca de un nuevo 
-                                proyecto. Para cuando Warface tenía su servidor regional a nosotros ya no nos 
-                                llenaba con la misma ilusión de un principio
+                                La incursión de CAOS en Warface es una de las etapas mas recordadas, también fue el momento 
+                                en el que CAOS contó con la mayor cantidad de jugadores activos dentro de un mismo videojuego, 
+                                disfrutábamos eventos con salas llenas y listas de espera a veces eternas, también cabe destacar 
+                                que contábamos con miembros del clan activos sin importar la hora, siempre había alguien 
+                                jugando!<br/>
+                                Fuimos reconocidos por gran parte de la comunidad latina y de NA debido a la actividad 
+                                constante que tuvimos en el juego, cosechando seguidores y un par de broncas también (no se 
+                                le puede caer bien a todo el mundo jaja). Este genial shooter, que tenía gran potencial para 
+                                convertirse en un juegazo, nos acompañó por un buen tiempo, tal vez sus defectos fueron las 
+                                fallas de registro y el hecho de que no contaba con un servidor regional, este fue un importante 
+                                punto en contra que nos impulsó a buscar nuevos juegos y finalmente darle una oportunidad a 
+                                Ironsight que sí reunía estas características y más.<br/>
+                                CAOS así finalizaba su aventura en Warface un juego recordado y querido por todos nosotros.
                             </div>
                             <div data-aos='fade-up-left' data-aos-delay='300' className='col games__list_game'>
                                 <img alt='Imagen de Warface' src={ imgWarface } />
@@ -80,9 +88,9 @@ function Games() {
                                 Una mezcla de cansancio e impotencia debido a la falta de server regional en Warface
                                 le puso fin a nuestra historia en este juego y le dió paso a este frenético y renovador 
                                 shooter llamado Ironsight.<br/>
-                                En este juego no solamente logramos mantener viva la llama de nuestra hermandad a pesar 
-                                de la incertidumbre que siempre plantea un cambio de juego si no que además logramos a 
-                                pesar de algunos momentos álgidos fortalecer el gran espíritu de CAOS.<br/>
+                                En este juego no solamente logramos mantener viva la llama de nuestra hermandad, a pesar 
+                                de la incertidumbre que siempre plantea un cambio de juego, si no que además logramos, a 
+                                pesar de algunos momentos álgidos, fortalecer el gran espíritu de CAOS.<br/>
                                 Desde finales del año 2019 hasta el día de hoy, es uno de los juegos que aún siguen siendo 
                                 referentes en los eventos del clan.
                             </div>
@@ -97,17 +105,18 @@ function Games() {
                                 <img alt='Imagen de Rainbow 6' src={ imgRainbow } />
                             </div>
                             <div data-aos='fade-up-left' data-aos-delay='300' className='col games__list_game'>
-                                Después de una exhaustiva búsqueda por ampliar nuestro repertorio de juegos nos llega 
-                                después de muchos años la opción de pasar a un juego de paga nuevamente (estuvimos mucho 
-                                tiempo en juegos F2P). Y así surge la idea de darle una chance a Rainbow Six Siege un juego 
-                                donde la estrategia sí importa y no el rush al bardo, como veníamos acostumbrados de otros 
-                                juegos, algo que a muchos nos costó entender. Siege es sin embargo uno de nuestros actuales 
-                                juegos ya que de a poco va robándose el corazón de algunos caóticos que lo miraban de costado
-                                con miedo a lo desconocido hace un tiempo atrás. Cosas como el buen registro, encontrar salas 
-                                rápidas y otras cosas han sido fundamentales para que Siege siga siendo uno de nuestros actuales 
-                                pasatiempos.<br/>
-                                Éste grupo de locos va a estar siempre en constante crecimiento, evolución y obvio con una 
-                                "pisquita" de CAOS, si no, ¿pa' que el nombre?
+                                Después de una exhaustiva búsqueda por ampliar nuestro repertorio de juegos, nos llega 
+                                nuevamente, tras muchos años, la opción de pasar a un juego de paga una vez más (estuvimos 
+                                mucho tiempo en juegos F2P). Y así surge la idea de darle una chance a Rainbow Six Siege, un 
+                                juego mucho mas estratégico que otros shooters, algo que a muchos nos costó entender, pero 
+                                supimos apreciar. R6 es, sin embargo, uno de nuestros videojuegos principales de la actualidad, 
+                                ya que de a poco, fue robándose el corazón de algunos caóticos que lo miraban de costado con 
+                                miedo a lo desconocido.<br/> 
+                                Cosas como el buen registro, una gran comunidad y encontrar salas públicas en tiempos cortos, 
+                                han sido fundamentales para que R6 siga siendo uno de nuestros actuales pasatiempos.<br/> 
+                                Para saber como continúa esta historia, te invitamos a que te unas a CAOS y nos acompañes 
+                                siempre que quieras... Este grupo de locos va a estar siempre en constante crecimiento y 
+                                evolución, sumando siempre una "pisquita" de caos, si no, ¿pa' que el nombre?
                             </div>
                         </div>
 
