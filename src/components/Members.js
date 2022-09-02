@@ -61,7 +61,7 @@ function Members() {
                                 </div>
                                 <div className='mt-4 player__container'>
                                     <img alt='foto de miembro' src={ fotoFibe } />
-                                    <div>Fibe</div>
+                                        <div>Fibe</div>
                                     <span>
                                         ⚡Puteador Serial <br/>
                                         ⚡enferrrrrrrmo <br/>
