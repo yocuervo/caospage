@@ -1,3 +1,4 @@
+import React from 'react';
 import './styles/members.css';
 import imgIntegrantes from '../images/logo_integrantes.png';
 
@@ -5,7 +6,13 @@ import fotoTigre from '../images/member_tigre.png';
 import fotoNicol from '../images/member_nicol.png';
 import fotoCuervo from '../images/member_cuervo.png';
 import fotoFibe from '../images/member_fibe.png';
-import React from 'react';
+import audioFibe from '../sounds/Fibe.mp3';
+
+let soundFibe = new Audio(audioFibe);
+
+function playSound() {
+    soundFibe.play();
+}
 
 function Members() {
     return (
@@ -51,22 +58,25 @@ function Members() {
                                 </div>
                                 <div className='mb-4 player__container'>
                                     <img alt='foto de miembro' src={ fotoCuervo } />
-                                    <div>Yo.Cuervo</div>
+                                        <div className='members_tag'>Yo.Cuervo</div>
+                                        <div className='members_date'>07/02/1987</div>
                                     <span>
                                         ⚡Qliaaaaado <br/>
                                         ⚡El que se caga en dios <br/>
                                         ⚡0 sacrasmo <br/>
                                         ⚡la lala <br/>
+                                        <button onClick={playSound} className='btn btn-outline-danger members__btn'>ESCUCHAME</button>
                                     </span>
                                 </div>
                                 <div className='mt-4 player__container'>
                                     <img alt='foto de miembro' src={ fotoFibe } />
-                                        <div>Fibe</div>
+                                        <div className='members_tag'>Fibe55</div>
+                                        <div className='members_date'>22/02/2001</div>
                                     <span>
-                                        ⚡Puteador Serial <br/>
-                                        ⚡enferrrrrrrmo <br/>
-                                        ⚡Sr Lag <br/>
-                                        ⚡La gatita de Angora <br/>
+                                        ⚡Insultador Serial <br/>
+                                        ⚡Lagggggggguero <br/>
+                                        ⚡Nerd Fundamentado <br/>
+                                        <button onClick={playSound} className='btn btn-outline-danger members__btn'>ESCUCHAME</button>
                                     </span>
                                 </div>
                             </div>
