@@ -53,12 +53,15 @@
 .players_general_container {
     justify-content: center;
     display: flex;
+    padding: 2%;
 }
 
 .player__container {
     margin: 0 auto;
     text-align: center;
-    width: 15%;
+    padding-bottom: 8px;
+    width: 20%;
+    min-width: 200px;
     overflow: hidden;
 	border-radius: 80px 0px 80px 0px;
 	box-shadow: 15px 15px 50px rgba(246, 243, 243, 0.2);
@@ -122,5 +125,5 @@
 }
 
 .player__container > span > button {
-    margin-top: 7px;
+    margin-top: 9px;
 }

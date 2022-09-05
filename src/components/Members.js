@@ -16,7 +16,7 @@ function playSound() {
 
 function Members() {
     return (
-                <div className='members__container'>
+            <div className='members__container'>
                 <section id='section1' />
                     <div className='members__header'>
                         <img src={ imgIntegrantes } alt="Another clan's Logo" />
@@ -34,26 +34,30 @@ function Members() {
                         <span>Lider</span>
                             <div className='players_general_container'>
                                 <div className='player__container'>
-                                    <img alt='foto de miembro' src={ fotoTigre } />
-                                    <div>TigreSerrano</div>
-                                    <span>
-                                        ⚡el amado lider <br/>
-                                        ⚡borrachio <br/>
-                                        ⚡el rayas <br/>
-                                        ⚡carniceeeero <br/>
-                                    </span>
+                                        <img alt='foto de miembro' src={ fotoTigre } />
+                                            <div className='members_tag'>TigreSerrano</div>
+                                            <div className='members_date'>27/05/1979</div>
+                                        <span>
+                                            ⚡Qliaaaaado <br/>
+                                            ⚡El que se caga en dios <br/>
+                                            ⚡0 sacrasmo <br/>
+                                            ⚡la lala <br/>
+                                            <button onClick={playSound} className='btn btn-outline-danger members__btn'>ESCUCHAME</button>
+                                        </span>
                                 </div>
                             </div>
                         <span>Oficiales</span>
                             <div className='players_general_container'>
                                 <div className='mt-4 player__container'>
                                     <img alt='foto de miembro' src={ fotoNicol } />
-                                    <div>NicoThePig</div>
+                                        <div className='members_tag'>NicoThePig</div>
+                                        <div className='members_date'>19/09/1995</div>
                                     <span>
-                                        ⚡La colorada <br/>
-                                        ⚡el Profe <br/>
-                                        ⚡el que propone juegos <br/>
-                                        y no juega <br/>
+                                        ⚡Qliaaaaado <br/>
+                                        ⚡El que se caga en dios <br/>
+                                        ⚡0 sacrasmo <br/>
+                                        ⚡la lala <br/>
+                                        <button onClick={playSound} className='btn btn-outline-danger members__btn'>ESCUCHAME</button>
                                     </span>
                                 </div>
                                 <div className='mb-4 player__container'>
@@ -83,53 +87,14 @@ function Members() {
                             {/* Span divisor para un nuevo grupo de 4 miembros */}
                             <span>Miembros</span>
                             {/* Span divisor para un nuevo grupo de 4 miembros */}
-                            <div className='players_general_container'>
-                                <div className='player__container'>
-                                    <img alt='foto de miembro' src={ fotoCuervo } />
-                                    <div>Yo.Cuervo</div>
-                                    <span>
-                                        ⚡Qliaaaaado <br/>
-                                        ⚡El que se caga en dios <br/>
-                                        ⚡0 sacrasmo <br/>
-                                        ⚡la lala <br/>
-                                    </span>
-                                </div>
-                                <div className='player__container'>
-                                    <img alt='foto de miembro' src={ fotoNicol } />
-                                    <div>NicoThePig</div>
-                                    <span>
-                                        ⚡La colorada <br/>
-                                        ⚡el Profe <br/>
-                                        ⚡el que propone juegos <br/>
-                                        y no juega <br/>
-                                    </span>
-                                </div>
-                                <div className='player__container'>
-                                    <img alt='foto de miembro' src={ fotoFibe } />
-                                    <div>Fibe</div>
-                                    <span>
-                                        ⚡Puteador Serial <br/>
-                                        ⚡enferrrrrrrmo <br/>
-                                        ⚡Sr Lag <br/>
-                                        ⚡La gatita de Angora <br/>
-                                    </span>
-                                </div>
-                                <div className='player__container'>
-                                    <img alt='foto de miembro' src={ fotoTigre } />
-                                    <div>TigreSerrano</div>
-                                    <span>
-                                        ⚡el amado lider <br/>
-                                        ⚡borrachio <br/>
-                                        ⚡el rayas <br/>
-                                        ⚡carniceeeero <br/>
-                                    </span>
-                                </div>
-                            </div>
+                            
+                            
+
                             {/* Span divisor para un nuevo grupo de 4 miembros */}
                                 <span />
                             {/* Span divisor para un nuevo grupo de 4 miembros */}
                     </div>
-                </div>
+            </div>
      );
 }
 
