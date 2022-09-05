@@ -39,7 +39,7 @@ function Members() {
                                             <div className='members_date'>27/05/1979</div>
                                         <span>
                                             ⚡Qliaaaaado <br/>
-                                            ⚡El que se caga en dios <br/>
+                                            ⚡El que se caga en dios<br/>
                                             ⚡0 sacrasmo <br/>
                                             ⚡la lala <br/>
                                             <button onClick={playSound} className='btn btn-outline-danger members__btn'>ESCUCHAME</button>
@@ -88,7 +88,7 @@ function Members() {
                             <span>Miembros</span>
                             {/* Span divisor para un nuevo grupo de 4 miembros */}
                             
-                            
+
 
                             {/* Span divisor para un nuevo grupo de 4 miembros */}
                                 <span />
