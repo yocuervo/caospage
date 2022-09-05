@@ -1,7 +1,7 @@
 .navbar__container {
     text-align: center;
     width: 100%;
-    padding: 2%;
+    padding: 3%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,6 +47,6 @@
 
 .navbar__buttons {
     color: whitesmoke;
-    margin: 0 6%;
+    margin: 5px 6%;
     z-index: 10;
 }
