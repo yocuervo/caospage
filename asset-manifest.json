@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/caospage/static/css/main.16cb79fb.css",
+    "main.js": "/caospage/static/js/main.0a6ecced.js",
+    "static/media/member_cuervo.png": "/caospage/static/media/member_cuervo.7eefcc4a3dcb85992858.png",
+    "static/media/member_fibe.png": "/caospage/static/media/member_fibe.f0e4138c853632ba846e.png",
+    "static/media/member_nicol.png": "/caospage/static/media/member_nicol.0de596cc4ccee2290ce2.png",
+    "static/media/games_warface.png": "/caospage/static/media/games_warface.bf00f798d7df604778bc.png",
+    "static/media/member_tigre.png": "/caospage/static/media/member_tigre.2e15aad06a0854dab6f9.png",
+    "static/media/games_paladins.png": "/caospage/static/media/games_paladins.d1f72257f6b7345e1837.png",
+    "static/media/games_iron.png": "/caospage/static/media/games_iron.a8f6a6c3a55b5c228c4e.png",
+    "static/media/fun.png": "/caospage/static/media/fun.b8df4d92d5637a5b0737.png",
+    "static/media/games_rainbow.png": "/caospage/static/media/games_rainbow.f6ee060481e45de2d9ff.png",
+    "static/media/games_assassins.png": "/caospage/static/media/games_assassins.bb02c976a8741e8f9c4d.png",
+    "static/media/funTwo.png": "/caospage/static/media/funTwo.88136d1ef963da816114.png",
+    "static/media/logo_integrantes.png": "/caospage/static/media/logo_integrantes.f4cd105206cd7dbde543.png",
+    "static/media/logo_reunion.png": "/caospage/static/media/logo_reunion.bcbc21b00b2eb57c64bb.png",
+    "static/media/logo_juegos.png": "/caospage/static/media/logo_juegos.9fccd4e76cc0e59fb24d.png",
+    "static/media/logo_redes.png": "/caospage/static/media/logo_redes.01592db0ee4c7178da72.png",
+    "static/media/logo_dos.png": "/caospage/static/media/logo_dos.59b0242b4792b5b77a2f.png",
+    "static/media/Fibe.mp3": "/caospage/static/media/Fibe.42c400096047306266fb.mp3",
+    "static/media/logo_uno.png": "/caospage/static/media/logo_uno.2acf000ce0a51d27024a.png",
+    "static/media/logo_mail.png": "/caospage/static/media/logo_mail.ca82bb818cc0cc8258f8.png",
+    "index.html": "/caospage/index.html",
+    "main.16cb79fb.css.map": "/caospage/static/css/main.16cb79fb.css.map",
+    "main.0a6ecced.js.map": "/caospage/static/js/main.0a6ecced.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.16cb79fb.css",
+    "static/js/main.0a6ecced.js"
+  ]
+}
