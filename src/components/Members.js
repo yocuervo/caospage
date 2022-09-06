@@ -36,7 +36,7 @@ function Members() {
                                 <div className='player__container'>
                                         <img alt='foto de miembro' src={ fotoTigre } />
                                             <div className='members_tag'>TigreSerrano</div>
-                                            <div className='members_date'>27/05/1979</div>
+                                            <div className='members_date'>27/05/1978</div>
                                         <span>
                                             ⚡Qliaaaaado <br/>
                                             ⚡El que se caga en dios<br/>
