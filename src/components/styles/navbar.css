@@ -32,7 +32,7 @@
     position: absolute;
     width: 1500px;
     height: 105%;
-    background: linear-gradient(rgb(93, 9, 9), rgb(18, 18, 89));
+    background: linear-gradient(rgb(93, 9, 9), rgb(180, 177, 233));
     animation: animate 4s linear infinite;
 }
 

@@ -25,7 +25,7 @@ function Members() {
                         Actualmente, año 2022, seguimos activos y jugando en los eventos semanales que tenemos, y si bien 
                         contamos con un grupo solido de miembros, han sido muchas las personas que pasaron por este clan, 
                         desde jugadores que compartieron solo algunos momentos, hasta verdaderos amigos quienes entendieron 
-                        de que se trata Caos; A todos y cada uno de ellos les estamos agradecidos, porque absolutamente de
+                        de que se trata CAOS; A todos y cada uno de ellos les estamos agradecidos, porque absolutamente de
                         todos los comportamientos humanos, siempre se aprende algo. <br/>
                         Como todo clan, manejamos un orden de rangos que simplemente nos permite organizarnos y exponemos
                         en esta grilla los miembros mas unidos al clan hasta el momento...
@@ -38,10 +38,10 @@ function Members() {
                                             <div className='members_tag'>TigreSerrano</div>
                                             <div className='members_date'>27/05/1978</div>
                                         <span>
-                                            ⚡Qliaaaaado <br/>
-                                            ⚡El que se caga en dios<br/>
-                                            ⚡0 sacrasmo <br/>
-                                            ⚡la lala <br/>
+                                            Qliaaaaado <br/>
+                                            El que se caga en dios<br/>
+                                            0 sacrasmo <br/>
+                                            la lala <br/>
                                             <button onClick={playSound} className='btn btn-outline-danger members__btn'>ESCUCHAME</button>
                                         </span>
                                 </div>
@@ -53,10 +53,10 @@ function Members() {
                                         <div className='members_tag'>NicoThePig</div>
                                         <div className='members_date'>19/09/1995</div>
                                     <span>
-                                        ⚡Qliaaaaado <br/>
-                                        ⚡El que se caga en dios <br/>
-                                        ⚡0 sacrasmo <br/>
-                                        ⚡la lala <br/>
+                                        Qliaaaaado <br/>
+                                        El que se caga en dios <br/>
+                                        0 sacrasmo <br/>
+                                        la lala <br/>
                                         <button onClick={playSound} className='btn btn-outline-danger members__btn'>ESCUCHAME</button>
                                     </span>
                                 </div>
@@ -65,10 +65,10 @@ function Members() {
                                         <div className='members_tag'>Yo.Cuervo</div>
                                         <div className='members_date'>07/02/1987</div>
                                     <span>
-                                        ⚡Qliaaaaado <br/>
-                                        ⚡El que se caga en dios <br/>
-                                        ⚡0 sacrasmo <br/>
-                                        ⚡la lala <br/>
+                                        Qliaaaaado <br/>
+                                        El que se caga en dios <br/>
+                                        0 sacrasmo <br/>
+                                        la lala <br/>
                                         <button onClick={playSound} className='btn btn-outline-danger members__btn'>ESCUCHAME</button>
                                     </span>
                                 </div>
@@ -77,9 +77,9 @@ function Members() {
                                         <div className='members_tag'>Fibe55</div>
                                         <div className='members_date'>22/02/2001</div>
                                     <span>
-                                        ⚡Insultador Serial <br/>
-                                        ⚡Lagggggggguero <br/>
-                                        ⚡Nerd Fundamentado <br/>
+                                        Insultador Serial <br/>
+                                        Lagggggggguero <br/>
+                                        Nerd Fundamentado <br/>
                                         <button onClick={playSound} className='btn btn-outline-danger members__btn'>ESCUCHAME</button>
                                     </span>
                                 </div>

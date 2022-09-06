@@ -49,7 +49,7 @@ function Games() {
                         <div className='row games__list_container'>
                             <div data-aos='fade-up-right' data-aos-delay='300' className='col games__list_game'>
                                 La incursión de CAOS en Warface es una de las etapas mas recordadas, también fue el momento 
-                                en el que CAOS contó con la mayor cantidad de jugadores activos dentro de un mismo videojuego, 
+                                en el que el clan contó con la mayor cantidad de jugadores activos dentro de un mismo videojuego, 
                                 disfrutábamos eventos con salas llenas y listas de espera a veces eternas, también cabe destacar 
                                 que contábamos con miembros del clan activos sin importar la hora, siempre había alguien 
                                 jugando!<br/>
@@ -75,7 +75,7 @@ function Games() {
                             <div data-aos='fade-up-left' data-aos-delay='300' className='col games__list_game'>
                                 Tuvimos un breve paso por este juego en el año 2017, frente al constante fallo de los 
                                 servidores de Assassins Creed empezamos a buscar un nuevo juego para compartir y
-                                continuar con la mecánica de dos juegos en nuestro evento semanal Jueves de Caos, 
+                                continuar con la mecánica de dos juegos en nuestro evento semanal Jueves de CAOS, 
                                 Paladins fue una muy buena opción pero no se llevo muchos votos por parte de los
                                 miembros del clan por lo que no lo seguimos jugando.
                             </div>
@@ -84,9 +84,9 @@ function Games() {
                         <div data-aos='fade-up' data-aos-delay='300' className='games__list_name'>Ironsight</div>
                         <div className='row games__list_container'>
                             <div data-aos='fade-up-right' data-aos-delay='300' className='col games__list_game'>
-                                Este juego nació casi como una necesidad impostergable en el clan.<br/>
+                                Un juego que nació casi como una necesidad impostergable en el clan.<br/>
                                 Una mezcla de cansancio e impotencia debido a la falta de server regional en Warface
-                                le puso fin a nuestra historia en este juego y le dió paso a este frenético y renovador 
+                                le puso fin a nuestra historia en ese juego y le dió paso a este frenético y renovador 
                                 shooter llamado Ironsight.<br/>
                                 En este juego no solamente logramos mantener viva la llama de nuestra hermandad, a pesar 
                                 de la incertidumbre que siempre plantea un cambio de juego, si no que además logramos, a 
