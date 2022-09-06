@@ -78,8 +78,9 @@ function Members() {
                                         <div className='members_date'>22/02/2001</div>
                                     <span>
                                         Insultador Serial <br/>
+                                        Mas tóxico que Chernobyl <br/>
                                         Lagggggggguero <br/>
-                                        Nerd Fundamentado <br/>
+                                        Muy en el fondo, un tierno... <br/>
                                         <button onClick={playSound} className='btn btn-outline-danger members__btn'>ESCUCHAME</button>
                                     </span>
                                 </div>
