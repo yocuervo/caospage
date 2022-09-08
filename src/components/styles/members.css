@@ -110,7 +110,7 @@
     color: white;
     margin-top: -18px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 4vh;
+    font-size: 3.8vh;
 }
 
 .members_date {
@@ -124,6 +124,7 @@
     color: rgb(180, 177, 233);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 2vh;
+    margin: 0 auto;
 }
 
 .player__container > span > button {
