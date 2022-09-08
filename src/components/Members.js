@@ -51,10 +51,12 @@ function Members() {
                                             <div className='members_tag'>TigreSerrano</div>
                                             <div className='members_date'>27/05/1978</div>
                                         <span>
-                                            Te dicta, y no es la tarea<br/>
-                                            Toma mucho, pero no esta tan tan taan mal<br/>
-                                            Conocido como "flechitas" Serrano<br/>
-                                            Nunca se acuerda de que tiene mala memoria<br/>
+                                            <div className='members__phrases'>
+                                                Te dicta, y no es la tarea.<br/>
+                                                Toma mucho, pero no esta tan tan taan mal.<br/>
+                                                Conocido como "flechitas" Serrano.<br/>
+                                                Nunca se acuerda de que tiene mala memoria.<br/>
+                                            </div>
                                             <button onClick={soundTigre} 
                                                     className='btn btn-outline-danger members__btn'>
                                                         ESCUCHAME</button>
@@ -68,10 +70,12 @@ function Members() {
                                         <div className='members_tag'>NicoThePig</div>
                                         <div className='members_date'>19/09/1995</div>
                                     <span>
-                                        Qliaaaaado <br/>
-                                        El que se caga en dios <br/>
-                                        0 sarcasmo <br/>
-                                        la lala <br/>
+                                        <div className='members__phrases'>
+                                            Qliaaaaado <br/>
+                                            El que se caga en dios <br/>
+                                            0 sarcasmo <br/>
+                                            la lala <br/>
+                                        </div>
                                         <button onClick={soundFibe}
                                                 className='btn btn-outline-danger members__btn'>
                                                     ESCUCHAME</button>
@@ -82,10 +86,12 @@ function Members() {
                                         <div className='members_tag'>Yo.Cuervo</div>
                                         <div className='members_date'>07/02/1987</div>
                                     <span>
-                                        Qliaaaaado <br/>
-                                        El que se caga en dios <br/>
-                                        0 sacrasmo <br/>
-                                        la lala <br/>
+                                        <div className='members__phrases'>
+                                            Qliaaaaado <br/>
+                                            El que se caga en dios <br/>
+                                            0 sacrasmo <br/>
+                                            la lala <br/>
+                                        </div>
                                         <button onClick={soundCuervo} 
                                                 className='btn btn-outline-danger members__btn'>
                                                     ESCUCHAME</button>
@@ -96,10 +102,12 @@ function Members() {
                                         <div className='members_tag'>Fibe55</div>
                                         <div className='members_date'>22/02/2001</div>
                                     <span>
-                                        Insultador Serial <br/>
-                                        Mas tóxico que Chernobyl <br/>
-                                        Lagggggggguero <br/>
-                                        Muy en el fondo, un tierno... <br/>
+                                        <div className='members__phrases'>
+                                            Insultador Serial.<br/>
+                                            Mas tóxico que Chernobyl.<br/>
+                                            Lagggggggguero.<br/>
+                                            Muy en el fondo, un tierno... <br/>
+                                        </div>
                                         <button onClick={soundFibe} 
                                                 className='btn btn-outline-danger members__btn'>
                                                     ESCUCHAME</button>
