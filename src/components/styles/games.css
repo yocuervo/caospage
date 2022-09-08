@@ -17,13 +17,14 @@
 /* Cada uno de los Juegos */
 
 .games__list {
-    text-align: center;
+    text-align: left;
     justify-content: center;
     align-items: center;
 }
 
 .games__list_container {
     margin-top: -20px;
+    padding: 1%;
 }
 
 .games__list_name {
@@ -37,10 +38,20 @@
 .games__list_game {
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 100%;
+    font-size: 2.5vh;
     padding: 3%;
 }
 
-.games__list_game > img {
-    width: 100%;
+.img__left {
+    width: 50%;
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 1%;
+}
+
+.img__right {
+    width: 50%;
+    float: right;
+    margin-left: 2%;
+    margin-bottom: 1%;
 }
