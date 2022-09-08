@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/caospage/static/css/main.0edb8c69.css",
-    "main.js": "/caospage/static/js/main.90f691a4.js",
+    "main.css": "/caospage/static/css/main.c513f072.css",
+    "main.js": "/caospage/static/js/main.b0f06324.js",
     "static/media/member_cuervo.png": "/caospage/static/media/member_cuervo.7eefcc4a3dcb85992858.png",
     "static/media/member_fibe.png": "/caospage/static/media/member_fibe.f0e4138c853632ba846e.png",
     "static/media/member_nicol.png": "/caospage/static/media/member_nicol.0de596cc4ccee2290ce2.png",
@@ -18,15 +18,17 @@
     "static/media/logo_juegos.png": "/caospage/static/media/logo_juegos.9fccd4e76cc0e59fb24d.png",
     "static/media/logo_redes.png": "/caospage/static/media/logo_redes.01592db0ee4c7178da72.png",
     "static/media/logo_dos.png": "/caospage/static/media/logo_dos.59b0242b4792b5b77a2f.png",
+    "static/media/Tigre.mp3": "/caospage/static/media/Tigre.808fa292eb347d70fdea.mp3",
     "static/media/Fibe.mp3": "/caospage/static/media/Fibe.42c400096047306266fb.mp3",
     "static/media/logo_uno.png": "/caospage/static/media/logo_uno.2acf000ce0a51d27024a.png",
+    "static/media/Cuervo.mp3": "/caospage/static/media/Cuervo.79e83bca6c50071d26c8.mp3",
     "static/media/logo_mail.png": "/caospage/static/media/logo_mail.ca82bb818cc0cc8258f8.png",
     "index.html": "/caospage/index.html",
-    "main.0edb8c69.css.map": "/caospage/static/css/main.0edb8c69.css.map",
-    "main.90f691a4.js.map": "/caospage/static/js/main.90f691a4.js.map"
+    "main.c513f072.css.map": "/caospage/static/css/main.c513f072.css.map",
+    "main.b0f06324.js.map": "/caospage/static/js/main.b0f06324.js.map"
   },
   "entrypoints": [
-    "static/css/main.0edb8c69.css",
-    "static/js/main.90f691a4.js"
+    "static/css/main.c513f072.css",
+    "static/js/main.b0f06324.js"
   ]
 }
