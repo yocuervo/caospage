@@ -1,6 +1,6 @@
 .page__container {
     width: 100%;
-    /* min-width: 700px; */
+    min-width: 1080px;
     height: 100%;
     background-color: black;
 }
