@@ -38,10 +38,10 @@ function Members() {
                                             <div className='members_tag'>TigreSerrano</div>
                                             <div className='members_date'>27/05/1978</div>
                                         <span>
-                                            Qliaaaaado <br/>
-                                            El que se caga en dios<br/>
-                                            0 sacrasmo <br/>
-                                            la lala <br/>
+                                            Te dicta, y no es la tarea<br/>
+                                            Toma mucho, pero no esta tan tan taan mal<br/>
+                                            Conocido como "flechitas" Serrano<br/>
+                                            Nunca se acuerda de que tiene mala memoria<br/>
                                             <button onClick={playSound} className='btn btn-outline-danger members__btn'>ESCUCHAME</button>
                                         </span>
                                 </div>
@@ -55,7 +55,7 @@ function Members() {
                                     <span>
                                         Qliaaaaado <br/>
                                         El que se caga en dios <br/>
-                                        0 sacrasmo <br/>
+                                        0 sarcasmo <br/>
                                         la lala <br/>
                                         <button onClick={playSound} className='btn btn-outline-danger members__btn'>ESCUCHAME</button>
                                     </span>

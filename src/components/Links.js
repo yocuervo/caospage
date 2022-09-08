@@ -19,6 +19,10 @@ function youTubeCuervo () {
     window.open('https://www.youtube.com/channel/UCGgJ06LB1bp2NM9VDR7sErw');
 };
 
+function youTubeNico () {
+    window.open('https://www.youtube.com/user/LacerdaD13');
+};
+
 function Links() {
     return (
             <div className='links__container'>
@@ -35,6 +39,7 @@ function Links() {
                     <div className='links__buttons'>
                         <button className='btn btn-outline-dark' onClick={ youTubeCuervo }>Yo.Cuervo</button>
                         <button className='btn btn-outline-dark' onClick={ youTubeTigre }>TigreSerrano</button>
+                        <button className='btn btn-outline-dark' onClick={ youTubeNico }>NicoThePig</button>
                     </div>
             </div>
      );
