@@ -37,7 +37,7 @@
 .games__list_game {
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 2.5vh;
+    font-size: 100%;
     padding: 3%;
 }
 

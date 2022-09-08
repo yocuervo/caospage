@@ -3,16 +3,29 @@ import './styles/members.css';
 import imgIntegrantes from '../images/logo_integrantes.png';
 
 import fotoTigre from '../images/member_tigre.png';
-import fotoNicol from '../images/member_nicol.png';
+import audioTigre from '../sounds/Tigre.mp3';
 import fotoCuervo from '../images/member_cuervo.png';
+import audioCuervo from '../sounds/Cuervo.mp3';
+import fotoNicol from '../images/member_nicol.png';
 import fotoFibe from '../images/member_fibe.png';
 import audioFibe from '../sounds/Fibe.mp3';
 
-let soundFibe = new Audio(audioFibe);
+let tigreSound = new Audio(audioTigre);
+let cuervoSound = new Audio(audioCuervo);
+let fibeSound = new Audio(audioFibe);
 
-function playSound() {
-    soundFibe.play();
+function soundTigre() {
+    tigreSound.play();
 }
+
+function soundCuervo() {
+    cuervoSound.play();
+}
+
+function soundFibe() {
+    fibeSound.play();
+}
+
 
 function Members() {
     return (
@@ -42,7 +55,9 @@ function Members() {
                                             Toma mucho, pero no esta tan tan taan mal<br/>
                                             Conocido como "flechitas" Serrano<br/>
                                             Nunca se acuerda de que tiene mala memoria<br/>
-                                            <button onClick={playSound} className='btn btn-outline-danger members__btn'>ESCUCHAME</button>
+                                            <button onClick={soundTigre} 
+                                                    className='btn btn-outline-danger members__btn'>
+                                                        ESCUCHAME</button>
                                         </span>
                                 </div>
                             </div>
@@ -57,7 +72,9 @@ function Members() {
                                         El que se caga en dios <br/>
                                         0 sarcasmo <br/>
                                         la lala <br/>
-                                        <button onClick={playSound} className='btn btn-outline-danger members__btn'>ESCUCHAME</button>
+                                        <button onClick={soundFibe}
+                                                className='btn btn-outline-danger members__btn'>
+                                                    ESCUCHAME</button>
                                     </span>
                                 </div>
                                 <div className='mb-4 player__container'>
@@ -69,7 +86,9 @@ function Members() {
                                         El que se caga en dios <br/>
                                         0 sacrasmo <br/>
                                         la lala <br/>
-                                        <button onClick={playSound} className='btn btn-outline-danger members__btn'>ESCUCHAME</button>
+                                        <button onClick={soundCuervo} 
+                                                className='btn btn-outline-danger members__btn'>
+                                                    ESCUCHAME</button>
                                     </span>
                                 </div>
                                 <div className='mt-4 player__container'>
@@ -81,7 +100,9 @@ function Members() {
                                         Mas tóxico que Chernobyl <br/>
                                         Lagggggggguero <br/>
                                         Muy en el fondo, un tierno... <br/>
-                                        <button onClick={playSound} className='btn btn-outline-danger members__btn'>ESCUCHAME</button>
+                                        <button onClick={soundFibe} 
+                                                className='btn btn-outline-danger members__btn'>
+                                                    ESCUCHAME</button>
                                     </span>
                                 </div>
                             </div>
