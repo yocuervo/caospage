@@ -103,7 +103,7 @@ function Members() {
                         
                     <div className='row members__title'>Miembros</div>
                     
-                        <div className='col-3 members__oficial'>
+                        <div className='col-3 members__caoticos'>
                                 <div className='players_general_container'>
                                     <div className='player__container'>
                                         <img alt='foto de miembro' src={ fotoNicol } />
