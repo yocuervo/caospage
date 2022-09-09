@@ -7,11 +7,13 @@ import audioTigre from '../sounds/Tigre.mp3';
 import fotoCuervo from '../images/member_cuervo.png';
 import audioCuervo from '../sounds/Cuervo.mp3';
 import fotoNicol from '../images/member_nicol.png';
+import audioNicol from '../sounds/Nicol.mp3';
 import fotoFibe from '../images/member_fibe.png';
 import audioFibe from '../sounds/Fibe.mp3';
 
 let tigreSound = new Audio(audioTigre);
 let cuervoSound = new Audio(audioCuervo);
+let nicolSound = new Audio(audioNicol);
 let fibeSound = new Audio(audioFibe);
 
 function soundTigre() {
@@ -20,6 +22,10 @@ function soundTigre() {
 
 function soundCuervo() {
     cuervoSound.play();
+}
+
+function soundNicol() {
+    nicolSound.play();
 }
 
 function soundFibe() {
@@ -73,7 +79,7 @@ function Members() {
                                             0 sarcasmo <br/>
                                             la lala <br/>
                                         </div>
-                                        <button onClick={soundFibe} className='btn btn-outline-danger members__btn'>
+                                        <button onClick={soundNicol} className='btn btn-outline-danger members__btn'>
                                                 ESCUCHAME</button>
                                 </div>
                                 <div className='mb-4 player__container'>
