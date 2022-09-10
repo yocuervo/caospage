@@ -35,7 +35,7 @@ function soundFibe() {
 
 function Members() {
     return (
-        <div className='members__container'>
+        <div className='col members__container'>
             <section id='section1' />
                 <div className='members__header'>
                     <img src={ imgIntegrantes } alt="Another clan's Logo" />
