@@ -35,7 +35,7 @@ function soundFibe() {
 
 function Members() {
     return (
-        <div className='col members__container'>
+        <div className='members__container'>
             <section id='section1' />
                 <div className='members__header'>
                     <img src={ imgIntegrantes } alt="Another clan's Logo" />
@@ -50,7 +50,7 @@ function Members() {
                     Como todo clan, manejamos un orden de rangos que simplemente nos permite organizarnos y exponemos 
                     en esta grilla los miembros mas relevantes del clan hasta el momento...
                 </div>
-                <div className='caoticos__container'>
+                <div className='col caoticos__container'>
                     <div className='row members__title'>Lider</div>
                         <div className='row members__lider'>
                             <div className='col-12 players_general_container'>
