@@ -44,7 +44,7 @@ function Members() {
                     Actualmente (2022), seguimos activos y compartiendo varios eventos semanales, entre los que se 
                     destaca nuestro emblemático y sagrado "Jueves de CAOS", y si bien contamos con un grupo sólido 
                     de miembros, han sido muchas las personas que pasaron por este clan, desde jugadores que compartieron 
-                    solo algunos momentos, hasta verdaderos amigos quienes entendieron de que se trata CAOS; a todos 
+                    solo algunos momentos hasta verdaderos amigos quienes entendieron de que se trata CAOS; a todos 
                     y cada uno de ellos les estamos agradecidos, porque absolutamente de todos los comportamientos humanos, 
                     siempre se aprende algo.<br/>
                     Como todo clan, manejamos un orden de rangos que simplemente nos permite organizarnos y exponemos 
@@ -75,7 +75,7 @@ function Members() {
                                     <img alt='foto de miembro' src={ fotoNicol } />
                                         <div className='members__phrases'>
                                             Habla mal 3 idiomas.<br/>
-                                            Cambió su primer Nickname por el acoso de los hoombres.<br/>
+                                            Cambió su primer Nickname por el acoso de los hombres.<br/>
                                             Se pregunta porque no le contestan y está muteado.<br/>
                                             Todavía va al colegio, pero ahora es "El Profe".<br/>
                                         </div>
@@ -85,10 +85,10 @@ function Members() {
                                 <div className='mb-4 player__container'>
                                     <img alt='foto de miembro' src={ fotoCuervo } /> 
                                         <div className='members__phrases'>
-                                            Ginecólogo y puteador compulsivo de deidades<br/>
-                                            Es cordobés pero odia el cuarteto<br/>
-                                            El Guasón dark del clan<br/>
-                                            Imprime penes en 3D<br/>
+                                            Ginecólogo y puteador compulsivo de deidades.<br/>
+                                            Es cordobés pero odia el cuarteto.<br/>
+                                            El Guasón dark del clan.<br/>
+                                            Imprime penes en 3D.<br/>
                                         </div>
                                         <button onClick={soundCuervo} className='btn btn-outline-danger members__btn'>
                                                 ESCUCHAME</button>
@@ -107,7 +107,7 @@ function Members() {
                             </div>
                         </div>
                         
-                    <div className='row members__title'>Miembros</div>
+                    <div className='row members__title'>Miembros Destacados</div>
                     
                         <div className='col-3 members__caoticos'>
                                 <div className='players_general_container'>
