@@ -32,7 +32,7 @@ function Games() {
                                 rivales con muchas cosas en común, luego con el tiempo fuimos de a poco compartiendo horas y 
                                 estrechando vínculos, hasta que un día se abrió la posibilidad de formar clanes dentro del juego. 
                                 Fué allí cuando surgió la idea de agruparnos bajo un mismo estandarte, romper con el juego individual 
-                                y crear nuestro propio clan, sumando la comunicación en las juntadas virtuales que hacíamos mediante 
+                                y crear nuestro propio clan, sumando la comunicación en los encuentros virtuales mediante 
                                 Skype (si, usábamos Skype). En los primeros meses nos llamábamos RIP (Requiescat in pace, por la 
                                 célebre frase que los Asesinos pronunciaban a sus víctimas al asesinarlos). Pero al poco tiempo y 
                                 con la llegada de Assassin’s Creed 4: Black Flag, nos pasamos a llamar CAOS y ese pequeño grupo 
@@ -106,7 +106,7 @@ function Games() {
                                 han sido fundamentales para que R6 siga siendo uno de nuestros actuales pasatiempos.<br/> 
                                 Para saber como continúa esta historia, te invitamos a que te unas a CAOS y nos acompañes 
                                 siempre que quieras... Este grupo de locos va a estar siempre en constante crecimiento y 
-                                evolución, sumando siempre una "pisquita" de caos, si no, ¿pa' que el nombre?
+                                evolución sumando, por supuesto, una "pisquita" de caos, si no, ¿pa' que el nombre?
                             </div>
                         </div>
 

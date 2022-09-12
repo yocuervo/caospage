@@ -74,10 +74,10 @@ function Members() {
                                 <div className='mt-4 player__container'>
                                     <img alt='foto de miembro' src={ fotoNicol } />
                                         <div className='members__phrases'>
-                                            Qliaaaaado <br/>
-                                            El que se caga en dios <br/>
-                                            0 sarcasmo <br/>
-                                            la lala <br/>
+                                            Habla mal 3 idiomas.<br/>
+                                            Cambió su primer Nickname por el acoso de los hoombres.<br/>
+                                            Se pregunta porque no le contestan y está muteado.<br/>
+                                            Todavía va al colegio, pero ahora es "El Profe".<br/>
                                         </div>
                                         <button onClick={soundNicol} className='btn btn-outline-danger members__btn'>
                                                 ESCUCHAME</button>
@@ -85,10 +85,10 @@ function Members() {
                                 <div className='mb-4 player__container'>
                                     <img alt='foto de miembro' src={ fotoCuervo } /> 
                                         <div className='members__phrases'>
-                                            Qliaaaaado <br/>
-                                            El que se caga en dios <br/>
-                                            0 sacrasmo <br/>
-                                            la lala <br/>
+                                            Ginecólogo y puteador compulsivo de deidades<br/>
+                                            Es cordobés pero odia el cuarteto<br/>
+                                            El Guasón dark del clan<br/>
+                                            Imprime penes en 3D<br/>
                                         </div>
                                         <button onClick={soundCuervo} className='btn btn-outline-danger members__btn'>
                                                 ESCUCHAME</button>
