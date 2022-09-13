@@ -21,6 +21,7 @@
 
 .button__container > span {
     position: absolute;
+    width: 98.5%;
     inset: 5px;
     border-radius: 25px;
     background: black;
