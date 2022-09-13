@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/caospage/static/css/main.91abae38.css",
-    "main.js": "/caospage/static/js/main.1baa42db.js",
+    "main.css": "/caospage/static/css/main.e1c011e4.css",
+    "main.js": "/caospage/static/js/main.c8ce9af4.js",
     "static/media/member_cuervo.png": "/caospage/static/media/member_cuervo.166d11a8cd77c0ef440b.png",
     "static/media/member_fibe.png": "/caospage/static/media/member_fibe.9c80ad1c7c76236f527e.png",
     "static/media/member_nicol.png": "/caospage/static/media/member_nicol.45cbe90e277db8c30851.png",
@@ -25,11 +25,11 @@
     "static/media/logo_uno.png": "/caospage/static/media/logo_uno.2acf000ce0a51d27024a.png",
     "static/media/logo_mail.png": "/caospage/static/media/logo_mail.ca82bb818cc0cc8258f8.png",
     "index.html": "/caospage/index.html",
-    "main.91abae38.css.map": "/caospage/static/css/main.91abae38.css.map",
-    "main.1baa42db.js.map": "/caospage/static/js/main.1baa42db.js.map"
+    "main.e1c011e4.css.map": "/caospage/static/css/main.e1c011e4.css.map",
+    "main.c8ce9af4.js.map": "/caospage/static/js/main.c8ce9af4.js.map"
   },
   "entrypoints": [
-    "static/css/main.91abae38.css",
-    "static/js/main.1baa42db.js"
+    "static/css/main.e1c011e4.css",
+    "static/js/main.c8ce9af4.js"
   ]
 }
