@@ -97,9 +97,9 @@ function Members() {
                                     <img alt='foto de miembro' src={ fotoFibe } />
                                         <div className='members__phrases'>
                                             Insultador Serial.<br/>
-                                            Mas tóxico que Chernobyl.<br/>
-                                            Lagggggggguero.<br/>
-                                            Muy en el fondo, un tierno... <br/>
+                                            En los juegos es mas tóxico que Chernobyl.<br/>
+                                            Laggggguero (el 55 de su nick es porque no supera los 56kbps).<br/>
+                                            Muy en el fondo, (pero muy adentro) un tierno...<br/>
                                         </div>
                                         <button onClick={soundFibe} className='btn btn-outline-danger members__btn'>
                                                 ESCUCHAME</button>

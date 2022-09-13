@@ -34,7 +34,8 @@
 
 /* Separacion de los Rangos */
 .members__title {
-    margin: 3%;
+    margin: 2%;
+    padding-top: 40px;
     color: rgb(119, 6, 6);
     font-family: monospace;
     font-weight: bold;
