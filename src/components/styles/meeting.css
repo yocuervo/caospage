@@ -1,5 +1,5 @@
 .meeting__container {
-    margin-top: 2%;
+    margin-top: 1%;
     overflow: hidden;
 }
 
@@ -18,8 +18,27 @@
 .meeting__title {
     color: antiquewhite;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-decoration: underline;
-    text-decoration-style: wavy;
-    font-size: 8vh;
+    font-size: 3vh;
     text-align: center;
+    padding: 2%;
+}
+
+.meeting__pics_row {
+    width: 100%;
+    text-align: center;
+    margin: auto 0;
+    display: flex;
+}
+
+.meeting__pics_col {
+    padding: 1%;
+    color: antiquewhite;
+}
+
+.meeting__pics_col > img {
+    width: 100%;
+    margin: auto 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
