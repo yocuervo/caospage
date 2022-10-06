@@ -2,12 +2,20 @@ import React from 'react';
 import './styles/meeting.css';
 import imgMeet from '../images/logo_reunion.png';
 
-import junt1 from '../images/Juntada1.jpg';
-import junt2 from '../images/Juntada2.jpg';
-import junt3 from '../images/Juntada3.jpg';
-import junt4 from '../images/Juntada4.jpg';
-import junt5 from '../images/Juntada5.jpg';
-import junt6 from '../images/Juntada6.jpg';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/effect-coverflow';
+import 'swiper/css/pagination';
+import { EffectCoverflow, Pagination } from 'swiper';
+
+import meet1 from '../images/meet/Meet01.png';
+import meet2 from '../images/meet/Meet02.png';
+import meet3 from '../images/meet/Meet03.png';
+import meet4 from '../images/meet/Meet04.png';
+import meet5 from '../images/meet/Meet05.png';
+import meet6 from '../images/meet/Meet06.png';
+import meet7 from '../images/meet/Meet07.png';
+import meet8 from '../images/meet/Meet08.png';
 
 
 
@@ -39,25 +47,56 @@ function Meeting() {
                         Hubo de todo y el tiempo quedó muy corto entre charlas, chistes, anécdotas, playa, cartas, fútbol, asados, 
                         alcohol, pero por sobre todo HERMANDAD... lo que nos define!
                     </div>
-                    <div className='row meeting__pics_row'>
-                        <div className='col-6 meeting__pics_col'>
-                            <img alt='foto de la Juntada' src={junt1} />
-                            Aca se puede poner un texto laaaaaaaargo y aun asi va a quedar bien porque soy muy copado</div>
-                        <div className='col-6 meeting__pics_col'>
-                            <img alt='foto de la Juntada' src={junt2} />
-                            Foto 2</div>
-                        <div className='col-6 meeting__pics_col'>
-                            <img alt='foto de la Juntada' src={junt3} />
-                            Foto 3</div>
-                        <div className='col-6 meeting__pics_col'>
-                            <img alt='foto de la Juntada' src={junt4} />
-                            Foto 4</div>
-                        <div className='col-6 meeting__pics_col'>
-                            <img alt='foto de la Juntada' src={junt5} />
-                            Foto 5</div>
-                        <div className='col-6 meeting__pics_col'>
-                            <img alt='foto de la Juntada' src={junt6} />
-                            Foto 6</div>
+                    <div className='meeting__pics_container'>
+                        <Swiper
+                            effect={'coverflow'}
+                            grabCursor={true}
+                            centeredSlides={true}
+                            slidesPerView={'auto'}
+                            coverflowEffect={{
+                                rotate: 50,
+                                stretch: 0,
+                                depth: 100,
+                                modifier: 1,
+                                slideShadows: true,
+                                }}
+                            pagination={true}
+                            modules={[EffectCoverflow, Pagination]}
+                            className='mySwiper'>
+                                <SwiperSlide className='meet_pic_text'>
+                                    2017<br/>Primer Juntada Caotica<br/>
+                                    <img alt='Foto de Juntada' src={meet1} />
+                                </SwiperSlide>
+                                <SwiperSlide className='meet_pic_text'>
+                                    2019<br/>Bien Alcohompañados<br/>
+                                    <img alt='Foto de Juntada' src={meet2} />
+                                </SwiperSlide>
+                                <SwiperSlide className='meet_pic_text'>
+                                    2019<br/>No somos fotógrafos claramente<br/>
+                                    <img alt='Foto de Juntada' src={meet3} />
+                                </SwiperSlide>
+                                <SwiperSlide className='meet_pic_text'>
+                                    2019<br/>El lider tomo la foto (o ya estaba desmayado?)<br/>
+                                    <img alt='Foto de Juntada' src={meet4} />
+                                </SwiperSlide>
+                                <SwiperSlide className='meet_pic_text'>
+                                    2020<br/>Hay Equipo!<br/>
+                                    <img alt='Foto de Juntada' src={meet5} />
+                                </SwiperSlide>
+                                <SwiperSlide className='meet_pic_text'>
+                                    2020<br/>No lo soñeeee ieee eeee<br/>
+                                    <img alt='Foto de Juntada' src={meet6} />
+                                </SwiperSlide>
+                                <SwiperSlide className='meet_pic_text'>
+                                    2020<br/>medios ebriormidos<br/>
+                                    <img alt='Foto de Juntada' src={meet7} />
+                                </SwiperSlide>
+                                <SwiperSlide className='meet_pic_text'>
+                                    2020<br/>8 Caoticos y nadie noto que la pelota quedo al otro lado... Sigamos con los videojuegos nomas<br/>
+                                    <img alt='Foto de Juntada' src={meet8} />
+                                </SwiperSlide>
+                                
+                        </Swiper>
                     </div>
             </div>
      );

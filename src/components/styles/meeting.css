@@ -23,22 +23,12 @@
     padding: 2%;
 }
 
-.meeting__pics_row {
+.meeting__pics_container {
     width: 100%;
     text-align: center;
-    margin: auto 0;
-    display: flex;
 }
 
-.meeting__pics_col {
-    padding: 1%;
-    color: antiquewhite;
-}
-
-.meeting__pics_col > img {
-    width: 100%;
-    margin: auto 0;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+.meet_pic_text {
+    color: aliceblue;
+    font-size: 2vh;
 }
