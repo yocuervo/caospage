@@ -1,9 +1,9 @@
 import './styles/header.css';
 import Swal from 'sweetalert2';
-import logoOne from '../images/logo_uno.png';
-import logoTwo from '../images/logo_dos.png';
-import fun from '../images/fun.png';
-import funTwo from '../images/funTwo.png';
+import logoOne from '../images/logos/logo_uno.png';
+import logoTwo from '../images/logos/logo_dos.png';
+import fun from '../images/misc/fun.png';
+import funTwo from '../images/misc/funTwo.png';
 
 let cont = 0;
 

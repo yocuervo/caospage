@@ -1,11 +1,11 @@
 import React from 'react';
 import './styles/games.css';
-import imgGames from '../images/logo_juegos.png';
-import imgAssassins from '../images/games_assassins.png';
-import imgPaladins from '../images/games_paladins.png';
-import imgWarface from '../images/games_warface.png';
-import imgIron from '../images/games_iron.png';
-import imgRainbow from '../images/games_rainbow.png';
+import imgGames from '../images/logos/logo_juegos.png';
+import imgAssassins from '../images/games/games_assassins.png';
+import imgPaladins from '../images/games/games_paladins.png';
+import imgWarface from '../images/games/games_warface.png';
+import imgIron from '../images/games/games_iron.png';
+import imgRainbow from '../images/games/games_rainbow.png';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 

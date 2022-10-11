@@ -1,7 +1,7 @@
-import './styles/footer.css';
-import logoMail from '../images/logo_mail.png';
-import logoLinkedin from '../images/logo_linkedin.png';
 import React from 'react';
+import './styles/footer.css';
+import logoMail from '../images/logos/logo_mail.png';
+import logoLinkedin from '../images/logos/logo_linkedin.png';
 
 function toMail() {
     window.open('mailto:loustau.exequiel@gmail.com', '_blank');

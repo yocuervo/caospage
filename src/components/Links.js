@@ -1,6 +1,6 @@
 import './styles/links.css';
 
-import imgLinks from '../images/logo_redes.png';
+import imgLinks from '../images/logos/logo_redes.png';
 import React from 'react';
 
 function youTubeClan () {
