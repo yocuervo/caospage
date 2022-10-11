@@ -25,10 +25,15 @@
 
 .meeting__pics_container {
     width: 100%;
+    margin-top: 1%;
     text-align: center;
 }
 
 .meet_pic_text {
-    color: aliceblue;
+    color: antiquewhite;
+    font-weight: bold;
     font-size: 2vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
