@@ -17,6 +17,8 @@ import meet6 from '../images/meet/Meet06.png';
 import meet7 from '../images/meet/Meet07.png';
 import meet8 from '../images/meet/Meet08.png';
 
+import finger from '../images/misc/hand.gif';
+
 
 
 function Meeting() {
@@ -136,6 +138,9 @@ function Meeting() {
                                 </SwiperSlide>
                                 
                         </Swiper>
+                    </div>
+                    <div className='meet__footer'>
+                            <img alt='Desliza!' src={finger} />
                     </div>
             </div>
      );
