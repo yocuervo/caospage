@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/caospage/static/css/main.db8a2cd1.css",
-    "main.js": "/caospage/static/js/main.93d17043.js",
+    "main.css": "/caospage/static/css/main.7903d53c.css",
+    "main.js": "/caospage/static/js/main.37e80f31.js",
     "static/media/member_cuervo.png": "/caospage/static/media/member_cuervo.166d11a8cd77c0ef440b.png",
     "static/media/member_fibe.png": "/caospage/static/media/member_fibe.9c80ad1c7c76236f527e.png",
     "static/media/member_nicol.png": "/caospage/static/media/member_nicol.45cbe90e277db8c30851.png",
@@ -22,9 +22,10 @@
     "static/media/logo_redes.png": "/caospage/static/media/logo_redes.01592db0ee4c7178da72.png",
     "static/media/Meet08.png": "/caospage/static/media/Meet08.3619fa8ce1482a8d0602.png",
     "static/media/Meet02.png": "/caospage/static/media/Meet02.e110067f1d763a9fc610.png",
-    "static/media/Meet01.png": "/caospage/static/media/Meet01.186f50df154836e93122.png",
+    "static/media/Meet00.png": "/caospage/static/media/Meet00.186f50df154836e93122.png",
     "static/media/Meet04.png": "/caospage/static/media/Meet04.55bee8baaa96d4f70bba.png",
     "static/media/Meet03.png": "/caospage/static/media/Meet03.9d41eed97fb46469d787.png",
+    "static/media/Meet01.png": "/caospage/static/media/Meet01.c949e73207c7dc64723a.png",
     "static/media/logo_dos.png": "/caospage/static/media/logo_dos.59b0242b4792b5b77a2f.png",
     "static/media/Fibe.mp3": "/caospage/static/media/Fibe.e49f233231972eaa4058.mp3",
     "static/media/Cuervo.mp3": "/caospage/static/media/Cuervo.34de50127576c7e5683c.mp3",
@@ -33,11 +34,11 @@
     "static/media/logo_uno.png": "/caospage/static/media/logo_uno.2acf000ce0a51d27024a.png",
     "static/media/logo_mail.png": "/caospage/static/media/logo_mail.ca82bb818cc0cc8258f8.png",
     "index.html": "/caospage/index.html",
-    "main.db8a2cd1.css.map": "/caospage/static/css/main.db8a2cd1.css.map",
-    "main.93d17043.js.map": "/caospage/static/js/main.93d17043.js.map"
+    "main.7903d53c.css.map": "/caospage/static/css/main.7903d53c.css.map",
+    "main.37e80f31.js.map": "/caospage/static/js/main.37e80f31.js.map"
   },
   "entrypoints": [
-    "static/css/main.db8a2cd1.css",
-    "static/js/main.93d17043.js"
+    "static/css/main.7903d53c.css",
+    "static/js/main.37e80f31.js"
   ]
 }
