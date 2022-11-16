@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/caospage/static/css/main.cf9b1116.css",
-    "main.js": "/caospage/static/js/main.0dbcfcc8.js",
+    "main.js": "/caospage/static/js/main.69c24718.js",
     "static/media/member_cuervo.png": "/caospage/static/media/member_cuervo.166d11a8cd77c0ef440b.png",
     "static/media/member_fibe.png": "/caospage/static/media/member_fibe.9c80ad1c7c76236f527e.png",
+    "static/media/member_rafa.png": "/caospage/static/media/member_rafa.d2d609247a49f5db93aa.png",
     "static/media/member_nicol.png": "/caospage/static/media/member_nicol.45cbe90e277db8c30851.png",
     "static/media/games_warface.png": "/caospage/static/media/games_warface.bf00f798d7df604778bc.png",
     "static/media/member_tigre.png": "/caospage/static/media/member_tigre.da020ba54b3ef7436b62.png",
@@ -15,18 +16,19 @@
     "static/media/Meet05.png": "/caospage/static/media/Meet05.e419e6f331ba0ff5b2a5.png",
     "static/media/funTwo.png": "/caospage/static/media/funTwo.88136d1ef963da816114.png",
     "static/media/logo_integrantes.png": "/caospage/static/media/logo_integrantes.f4cd105206cd7dbde543.png",
-    "static/media/Meet07.png": "/caospage/static/media/Meet07.5927f1b4713b08a1bfda.png",
+    "static/media/Meet07.png": "/caospage/static/media/Meet07.124cb4d2a1055de90529.png",
     "static/media/logo_reunion.png": "/caospage/static/media/logo_reunion.bcbc21b00b2eb57c64bb.png",
-    "static/media/Meet06.png": "/caospage/static/media/Meet06.316b8b74fdb302b5ea0a.png",
+    "static/media/Meet06.png": "/caospage/static/media/Meet06.48b5b3013d1bb13171c5.png",
     "static/media/logo_juegos.png": "/caospage/static/media/logo_juegos.9fccd4e76cc0e59fb24d.png",
     "static/media/Meet08.png": "/caospage/static/media/Meet08.929cb2370af618827f7e.png",
     "static/media/logo_redes.png": "/caospage/static/media/logo_redes.01592db0ee4c7178da72.png",
     "static/media/Meet02.png": "/caospage/static/media/Meet02.cc504698b58e91953fb3.png",
-    "static/media/Meet00.png": "/caospage/static/media/Meet00.fad9d5ad99f639e5d9f3.png",
+    "static/media/Meet00.png": "/caospage/static/media/Meet00.cb62a670be4819f91d8d.png",
     "static/media/Meet03.png": "/caospage/static/media/Meet03.568669a72b42fb950c6b.png",
     "static/media/Meet04.png": "/caospage/static/media/Meet04.daebafe541439b96921a.png",
-    "static/media/Meet01.png": "/caospage/static/media/Meet01.7c3a442d4ae2ca86efde.png",
+    "static/media/Meet01.png": "/caospage/static/media/Meet01.f08b7fa08d8865a5258a.png",
     "static/media/logo_dos.png": "/caospage/static/media/logo_dos.59b0242b4792b5b77a2f.png",
+    "static/media/Rafa.mp3": "/caospage/static/media/Rafa.35c45b497970b90475ec.mp3",
     "static/media/Fibe.mp3": "/caospage/static/media/Fibe.e49f233231972eaa4058.mp3",
     "static/media/Cuervo.mp3": "/caospage/static/media/Cuervo.34de50127576c7e5683c.mp3",
     "static/media/hand.gif": "/caospage/static/media/hand.4282c05fca4cf9809cf5.gif",
@@ -36,10 +38,10 @@
     "static/media/logo_mail.png": "/caospage/static/media/logo_mail.ca82bb818cc0cc8258f8.png",
     "index.html": "/caospage/index.html",
     "main.cf9b1116.css.map": "/caospage/static/css/main.cf9b1116.css.map",
-    "main.0dbcfcc8.js.map": "/caospage/static/js/main.0dbcfcc8.js.map"
+    "main.69c24718.js.map": "/caospage/static/js/main.69c24718.js.map"
   },
   "entrypoints": [
     "static/css/main.cf9b1116.css",
-    "static/js/main.0dbcfcc8.js"
+    "static/js/main.69c24718.js"
   ]
 }
