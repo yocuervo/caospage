@@ -10,11 +10,14 @@ import fotoNicol from '../images/memb/member_nicol.png';
 import audioNicol from '../sounds/Nicol.mp3';
 import fotoFibe from '../images/memb/member_fibe.png';
 import audioFibe from '../sounds/Fibe.mp3';
+import fotoRafa from '../images/memb/member_rafa.png';
+import audioRafa from '../sounds/Rafa.mp3';
 
 let tigreSound = new Audio(audioTigre);
 let cuervoSound = new Audio(audioCuervo);
 let nicolSound = new Audio(audioNicol);
 let fibeSound = new Audio(audioFibe);
+let rafaSound = new Audio(audioRafa);
 
 function soundTigre() {
     tigreSound.play();
@@ -30,6 +33,10 @@ function soundNicol() {
 
 function soundFibe() {
     fibeSound.play();
+}
+
+function soundRafa() {
+    rafaSound.play();
 }
 
 
@@ -112,14 +119,14 @@ function Members() {
                         <div className='col-3 members__caoticos'>
                                 <div className='players_general_container'>
                                     <div className='player__container'>
-                                        <img alt='foto de miembro' src={ fotoNicol } />
+                                        <img alt='foto de miembro' src={ fotoRafa } />
                                             <div className='members__phrases'>
-                                                Qliaaaaado <br/>
-                                                El que se caga en dios <br/>
-                                                0 sarcasmo <br/>
-                                                la lala <br/>
+                                                El brasilero mas rioplatense  <br/>
+                                                Qué menchiira <br/>
+                                                Sus explosivos tienen vida propia <br/>
+                                                Juega a 10ms pero contiene su KI para no abusar del clan <br/>
                                             </div>
-                                            <button onClick={soundFibe} className='btn btn-outline-danger members__btn'>
+                                            <button onClick={soundRafa} className='btn btn-outline-danger members__btn'>
                                                     ESCUCHAME</button>
                                     </div>
                                     <div className='player__container'>
