@@ -3,4 +3,5 @@
     min-width: 720px;
     height: 100%;
     background-color: black;
+    overflow-x: hidden !important;
 }

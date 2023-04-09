@@ -12,12 +12,15 @@ import fotoFibe from '../images/memb/member_fibe.png';
 import audioFibe from '../sounds/Fibe.mp3';
 import fotoRafa from '../images/memb/member_rafa.png';
 import audioRafa from '../sounds/Rafa.mp3';
+import fotoVago from '../images/memb/member_vago.png';
+import audioVago from '../sounds/Vago.mp3';
 
 let tigreSound = new Audio(audioTigre);
 let cuervoSound = new Audio(audioCuervo);
 let nicolSound = new Audio(audioNicol);
 let fibeSound = new Audio(audioFibe);
 let rafaSound = new Audio(audioRafa);
+let vagoSound = new Audio(audioVago);
 
 function soundTigre() {
     tigreSound.play();
@@ -39,6 +42,10 @@ function soundRafa() {
     rafaSound.play();
 }
 
+function soundVago() {
+    vagoSound.play();
+}
+
 
 function Members() {
     return (
@@ -48,7 +55,7 @@ function Members() {
                     <img src={ imgIntegrantes } alt="Another clan's Logo" />
                 </div>
                 <div className='members__data'>
-                    Actualmente (2022), seguimos activos y compartiendo varios eventos semanales, entre los que se 
+                    Actualmente (2023), seguimos activos y compartiendo varios eventos semanales, entre los que se 
                     destaca nuestro emblemático y sagrado "Jueves de CAOS", y si bien contamos con un grupo sólido 
                     de miembros, han sido muchas las personas que pasaron por este clan, desde jugadores que compartieron 
                     solo algunos momentos hasta verdaderos amigos quienes entendieron de que se trata CAOS; a todos 
@@ -130,14 +137,14 @@ function Members() {
                                                     ESCUCHAME</button>
                                     </div>
                                     <div className='player__container'>
-                                        <img alt='foto de miembro' src={ fotoCuervo } /> 
+                                        <img alt='foto de miembro' src={ fotoVago } /> 
                                             <div className='members__phrases'>
-                                                Qliaaaaado <br/>
-                                                El que se caga en dios <br/>
-                                                0 sacrasmo <br/>
-                                                la lala <br/>
+                                                Es el abuelito mimoso del clan <br/>
+                                                Dueño de unos reflejos en diferido <br/>
+                                                Sus MACROS son estéticos <br/>
+                                                Su Aim está como él mismo.. Jubilado <br/>
                                             </div>
-                                            <button onClick={soundCuervo} className='btn btn-outline-danger members__btn'>
+                                            <button onClick={soundVago} className='btn btn-outline-danger members__btn'>
                                                     ESCUCHAME</button>
                                     </div>
                                     <div className='player__container'>

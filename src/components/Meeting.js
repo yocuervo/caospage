@@ -68,14 +68,8 @@ function Meeting() {
                                     <div className='meet_pic_pic'>
                                         <img alt='Foto de Juntada' src={meet0} />
                                     </div>
-                                    {/* <div className='meet_pic_text'>
-                                        2017<br/>Actúa normal que es simplemente una chica gamer…<br/>
-                                    </div> */}
                                 </SwiperSlide>
                                 <SwiperSlide className='meet_pic_container'>
-                                    {/* <div className='meet_pic_text'>
-                                        2017<br/>De quien era el cumple?<br/>
-                                    </div> */}
                                     <div className='meet_pic_pic'>
                                         <img alt='Foto de Juntada' src={meet1} />
                                     </div>
@@ -84,14 +78,8 @@ function Meeting() {
                                     <div className='meet_pic_pic'>
                                         <img alt='Foto de Juntada' src={meet2} />
                                     </div>
-                                    {/* <div className='meet_pic_text'>
-                                        2019<br/>Bien Alcohompañados<br/>
-                                    </div> */}
                                 </SwiperSlide>
                                 <SwiperSlide className='meet_pic_container'>
-                                    {/* <div className='meet_pic_text'>
-                                        2019<br/>Esa altura de la noche donde ya no quedan las mejores poses<br/>
-                                    </div> */}
                                     <div className='meet_pic_pic'>
                                         <img alt='Foto de Juntada' src={meet3} />
                                     </div>
@@ -100,14 +88,8 @@ function Meeting() {
                                     <div className='meet_pic_pic'>
                                         <img alt='Foto de Juntada' src={meet4} />
                                     </div>
-                                    {/* <div className='meet_pic_text'>
-                                        2019<br/>Libertad… el lider no está presente<br/>
-                                    </div> */}
                                 </SwiperSlide>
                                 <SwiperSlide className='meet_pic_container'>
-                                    {/* <div className='meet_pic_text'>
-                                        2020<br/>Hay equipo, falta forma<br/>
-                                    </div> */}
                                     <div className='meet_pic_pic'>
                                         <img alt='Foto de Juntada' src={meet5} />
                                     </div>
@@ -116,14 +98,8 @@ function Meeting() {
                                     <div className='meet_pic_pic'>
                                         <img alt='Foto de Juntada' src={meet6} />
                                     </div>
-                                    {/* <div className='meet_pic_text'>
-                                        2020<br/>El nono ya no se levanta<br/>
-                                    </div> */}
                                 </SwiperSlide>
                                 <SwiperSlide className='meet_pic_container'>
-                                    {/* <div className='meet_pic_text'>
-                                        2020<br/>medios ebriormidos<br/>
-                                    </div> */}
                                     <div className='meet_pic_pic'>
                                         <img alt='Foto de Juntada' src={meet7} />
                                     </div>
@@ -132,9 +108,6 @@ function Meeting() {
                                     <div className='meet_pic_pic'>
                                         <img alt='Foto de Juntada' src={meet8} />
                                     </div>
-                                    {/* <div className='meet_pic_text'>
-                                        2020<br/>La barrera se arma de frente a la pelota, caóticos!<br/>
-                                    </div> */}
                                 </SwiperSlide>
                                 
                         </Swiper>
