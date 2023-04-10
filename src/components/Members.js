@@ -12,6 +12,8 @@ import fotoFibe from '../images/memb/member_fibe.png';
 import audioFibe from '../sounds/Fibe.mp3';
 import fotoRafa from '../images/memb/member_rafa.png';
 import audioRafa from '../sounds/Rafa.mp3';
+import fotoBarri from '../images/memb/member_barri.png';
+import audioBarri from '../sounds/Barri.mp3';
 import fotoVago from '../images/memb/member_vago.png';
 import audioVago from '../sounds/Vago.mp3';
 
@@ -20,6 +22,7 @@ let cuervoSound = new Audio(audioCuervo);
 let nicolSound = new Audio(audioNicol);
 let fibeSound = new Audio(audioFibe);
 let rafaSound = new Audio(audioRafa);
+let barriSound = new Audio(audioBarri);
 let vagoSound = new Audio(audioVago);
 
 function soundTigre() {
@@ -40,6 +43,10 @@ function soundFibe() {
 
 function soundRafa() {
     rafaSound.play();
+}
+
+function soundBarri() {
+    barriSound.play()
 }
 
 function soundVago() {
@@ -137,6 +144,17 @@ function Members() {
                                                     ESCUCHAME</button>
                                     </div>
                                     <div className='player__container'>
+                                        <img alt='foto de miembro' src={ fotoBarri } />
+                                            <div className='members__phrases'>
+                                                Este juego no me anda, mis balas no matan.<br/>
+                                                Son todos hackers, olvidaaaggtheee.<br/>
+                                                Le faltan teclas pero le sobran excusas.<br/>
+                                                Master en Todología <br/>
+                                            </div>
+                                            <button onClick={soundBarri} className='btn btn-outline-danger members__btn'>
+                                                    ESCUCHAME</button>
+                                    </div>
+                                    <div className='player__container'>
                                         <img alt='foto de miembro' src={ fotoVago } /> 
                                             <div className='members__phrases'>
                                                 Es el abuelito mimoso del clan <br/>
@@ -145,17 +163,6 @@ function Members() {
                                                 Su Aim está como él mismo.. Jubilado <br/>
                                             </div>
                                             <button onClick={soundVago} className='btn btn-outline-danger members__btn'>
-                                                    ESCUCHAME</button>
-                                    </div>
-                                    <div className='player__container'>
-                                        <img alt='foto de miembro' src={ fotoFibe } />
-                                            <div className='members__phrases'>
-                                                Insultador Serial.<br/>
-                                                Mas tóxico que Chernobyl.<br/>
-                                                Lagggggggguero.<br/>
-                                                Muy en el fondo, un tierno... <br/>
-                                            </div>
-                                            <button onClick={soundFibe} className='btn btn-outline-danger members__btn'>
                                                     ESCUCHAME</button>
                                     </div>
                                     <div className='player__container'>
