@@ -16,7 +16,7 @@ function Footer() {
         <div className='footer__container__dev'>
             <hr className='footer__line' />
             <div className='footer__container__dev_info'>
-                    Página web desarrollada por Exequiel Adrian Loustau. 2022
+                    Página web desarrollada por Exequiel Adrian Loustau. 2023
                     <button className='btn btn-outline-dark footer__button' onClick={ toMail }>
                         <img alt='logo mail' src={ logoMail } />
                     </button>
