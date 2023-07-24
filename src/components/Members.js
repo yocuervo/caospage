@@ -4,34 +4,12 @@ import imgIntegrantes from '../images/logos/logo_integrantes.png';
 
 import fotoTigre from '../images/memb/member_tigre.png';
 import audioTigre from '../sounds/Tigre.mp3';
-import fotoCuervo from '../images/memb/member_cuervo.png';
-import audioCuervo from '../sounds/Cuervo.mp3';
-import fotoNicol from '../images/memb/member_nicol.png';
-import audioNicol from '../sounds/Nicol.mp3';
-import fotoFibe from '../images/memb/member_fibe.png';
-import audioFibe from '../sounds/Fibe.mp3';
 
 let tigreSound = new Audio(audioTigre);
-let cuervoSound = new Audio(audioCuervo);
-let nicolSound = new Audio(audioNicol);
-let fibeSound = new Audio(audioFibe);
 
 function soundTigre() {
     tigreSound.play();
 }
-
-function soundCuervo() {
-    cuervoSound.play();
-}
-
-function soundNicol() {
-    nicolSound.play();
-}
-
-function soundFibe() {
-    fibeSound.play();
-}
-
 
 function Members() {
     return (
@@ -54,6 +32,7 @@ function Members() {
                     <div className='row members__title'>Lider</div>
                         <div className='row members__lider'>
                             <div className='col-12 players_general_container'>
+
                                 <div className='player__container'>
                                         <img alt='foto de miembro' src={ fotoTigre } />
                                             <div className='members__phrases'>
@@ -65,53 +44,59 @@ function Members() {
                                     <button onClick={soundTigre} className='btn btn-outline-danger members__btn'>
                                                 ESCUCHAME</button>
                                 </div>
+
                             </div>
                         </div>
 
                     <div className='row members__title'>Oficiales</div>
-                        <div className='col-4 members__oficial'>
-                            <div className='players_general_container'>
+                        <div className='row members__oficial'>
+                            <div className='col-4 players_general_container'>
+
                                 <div className='mt-4 player__container'>
-                                    <img alt='foto de miembro' src={ fotoNicol } />
+                                    {/* <img alt='foto de miembro' src={ fotoNicol } /> */}
                                         <div className='members__phrases'>
                                             Habla mal 3 idiomas.<br/>
                                             Cambió su primer Nickname por el acoso de los hombres.<br/>
                                             Se pregunta porque no le contestan y está muteado.<br/>
                                             Todavía va al colegio, pero ahora es "El Profe".<br/>
                                         </div>
-                                        <button onClick={soundNicol} className='btn btn-outline-danger members__btn'>
-                                                ESCUCHAME</button>
+                                        {/* <button onClick={soundNicol} className='btn btn-outline-danger members__btn'>
+                                                ESCUCHAME</button> */}
                                 </div>
                                 <div className='mb-4 player__container'>
-                                    <img alt='foto de miembro' src={ fotoCuervo } /> 
+                                    {/* <img alt='foto de miembro' src={ fotoCuervo } />  */}
                                         <div className='members__phrases'>
                                             Ginecólogo y puteador compulsivo de deidades.<br/>
                                             Es cordobés pero odia el cuarteto.<br/>
                                             El Guasón dark del clan.<br/>
                                             Imprime penes en 3D.<br/>
                                         </div>
-                                        <button onClick={soundCuervo} className='btn btn-outline-danger members__btn'>
-                                                ESCUCHAME</button>
+                                        {/* <button onClick={soundCuervo} className='btn btn-outline-danger members__btn'>
+                                                ESCUCHAME</button> */}
                                 </div>
                                 <div className='mt-4 player__container'>
-                                    <img alt='foto de miembro' src={ fotoFibe } />
+                                    {/* <img alt='foto de miembro' src={ fotoFibe } /> */}
                                         <div className='members__phrases'>
                                             Insultador Serial.<br/>
                                             En los juegos es mas tóxico que Chernobyl.<br/>
                                             Laggggguero (el 55 de su nick es porque no supera los 56kbps).<br/>
                                             Muy en el fondo, (pero muy adentro) un tierno...<br/>
                                         </div>
-                                        <button onClick={soundFibe} className='btn btn-outline-danger members__btn'>
-                                                ESCUCHAME</button>
+                                        {/* <button onClick={soundFibe} className='btn btn-outline-danger members__btn'>
+                                                ESCUCHAME</button> */}
                                 </div>
+
                             </div>
                         </div>
                         
                     <div className='row members__title'>Miembros Destacados</div>
                     
-                        <div className='col-3 members__caoticos'>
-                            
+                        <div className='row members__caoticos'>
+                            <div className='col-3 players_general_container'>
+
+                            </div>
                         </div>
+
                             <span />
                         {/* Span divisor para un nuevo grupo de 4 miembros */}
                 </div>
