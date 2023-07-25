@@ -15,18 +15,12 @@ import audioVago from '../sounds/Vago.mp3';
 import fotoShin from '../images/memb/member_shin.png';
 import audioShin from '../sounds/Shin.mp3';
 
-let tigreSound = new Audio(audioTigre);
-
-function soundTigre() {
-    tigreSound.play();
-}
-
-const members = {
-    caoticos: [
+const caoticos = [
         {
             name: 'Tigre',
+            id: 'Tigre',
             pic: fotoTigre,
-            sound: soundTigre(),
+            sound: audioTigre,
             phrases: [
                 'Te dicta, y no es la tarea.',
                 'Toma mucho, pero no esta tan tan taan mal.',
@@ -36,6 +30,7 @@ const members = {
         },
         {
             name: 'Cuervo',
+            id: 'Cuervo',
             pic: fotoCuervo,
             sound: new Audio(audioCuervo),
             phrases: [
@@ -47,6 +42,7 @@ const members = {
         },
         {
             name: 'Nico',
+            id: 'Nico',
             pic: fotoNicol,
             sound: new Audio(audioNicol),
             phrases: [
@@ -58,6 +54,7 @@ const members = {
         },
         {
             name: 'Fibe',
+            id: 'Fibe',
             pic: fotoFibe,
             sound: new Audio(audioFibe),
             phrases: [
@@ -69,6 +66,7 @@ const members = {
         },
         {
             name: 'Rafa',
+            id: 'Rafa',
             pic: fotoRafa,
             sound: new Audio(audioRafa),
             phrases: [
@@ -80,6 +78,7 @@ const members = {
         },
         {
             name: 'Barri',
+            id: 'Barri',
             pic: fotoBarri,
             sound: new Audio(audioBarri),
             phrases: [
@@ -91,6 +90,7 @@ const members = {
         },
         {
             name: 'Vago',
+            id: 'Vago',
             pic: fotoVago,
             sound: new Audio(audioVago),
             phrases: [
@@ -102,6 +102,7 @@ const members = {
         },
         {
             name: 'Shin',
+            id: 'Shin',
             pic: fotoShin,
             sound: new Audio(audioShin),
             phrases: [
@@ -111,7 +112,6 @@ const members = {
                 'Auspiciada por chizitos y papitas "Ruidolin".',
             ]
         }
-    ]
-}
+    ];
 
-export default members;
+export default caoticos;

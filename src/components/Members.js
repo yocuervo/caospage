@@ -2,14 +2,7 @@ import React from 'react';
 import './styles/members.css';
 import imgIntegrantes from '../images/logos/logo_integrantes.png';
 
-import fotoTigre from '../images/memb/member_tigre.png';
-import audioTigre from '../sounds/Tigre.mp3';
-
-let tigreSound = new Audio(audioTigre);
-
-function soundTigre() {
-    tigreSound.play();
-}
+import CaoticoComponent from './CaoticoComponent';
 
 function Members() {
     return (
@@ -28,78 +21,35 @@ function Members() {
                     Como todo clan, manejamos un orden de rangos que simplemente nos permite organizarnos y exponemos 
                     en esta grilla los miembros mas relevantes del clan hasta el momento...
                 </div>
+
                 <div className='caoticos__container'>
                     <div className='row members__title'>Lider</div>
-                        <div className='row members__lider'>
-                            <div className='col-12 players_general_container'>
-
-                                <div className='player__container'>
-                                        <img alt='foto de miembro' src={ fotoTigre } />
-                                            <div className='members__phrases'>
-                                                Te dicta, y no es la tarea.<br/>
-                                                Toma mucho, pero no esta tan tan taan mal.<br/>
-                                                Conocido como "flechitas" Serrano.<br/>
-                                                Nunca se acuerda de que tiene mala memoria.<br/>
-                                            </div>
-                                    <button onClick={soundTigre} className='btn btn-outline-danger members__btn'>
-                                                ESCUCHAME</button>
-                                </div>
-
+                        <div className='row members__cupula'>
+                            <div className='col-12 players_general_container'>          
+                                    <CaoticoComponent id='Tigre' />
                             </div>
                         </div>
 
                     <div className='row members__title'>Oficiales</div>
-                        <div className='row members__oficial'>
-                            <div className='col-4 players_general_container'>
-
-                                <div className='mt-4 player__container'>
-                                    {/* <img alt='foto de miembro' src={ fotoNicol } /> */}
-                                        <div className='members__phrases'>
-                                            Habla mal 3 idiomas.<br/>
-                                            Cambió su primer Nickname por el acoso de los hombres.<br/>
-                                            Se pregunta porque no le contestan y está muteado.<br/>
-                                            Todavía va al colegio, pero ahora es "El Profe".<br/>
-                                        </div>
-                                        {/* <button onClick={soundNicol} className='btn btn-outline-danger members__btn'>
-                                                ESCUCHAME</button> */}
+                        <div className='row members__cupula'>
+                                <div className='col-4 players_general_container'>   
+                                    <CaoticoComponent id='Nico' />
+                                    <CaoticoComponent id='Cuervo' />
+                                    <CaoticoComponent id='Fibe' /> 
                                 </div>
-                                <div className='mb-4 player__container'>
-                                    {/* <img alt='foto de miembro' src={ fotoCuervo } />  */}
-                                        <div className='members__phrases'>
-                                            Ginecólogo y puteador compulsivo de deidades.<br/>
-                                            Es cordobés pero odia el cuarteto.<br/>
-                                            El Guasón dark del clan.<br/>
-                                            Imprime penes en 3D.<br/>
-                                        </div>
-                                        {/* <button onClick={soundCuervo} className='btn btn-outline-danger members__btn'>
-                                                ESCUCHAME</button> */}
-                                </div>
-                                <div className='mt-4 player__container'>
-                                    {/* <img alt='foto de miembro' src={ fotoFibe } /> */}
-                                        <div className='members__phrases'>
-                                            Insultador Serial.<br/>
-                                            En los juegos es mas tóxico que Chernobyl.<br/>
-                                            Laggggguero (el 55 de su nick es porque no supera los 56kbps).<br/>
-                                            Muy en el fondo, (pero muy adentro) un tierno...<br/>
-                                        </div>
-                                        {/* <button onClick={soundFibe} className='btn btn-outline-danger members__btn'>
-                                                ESCUCHAME</button> */}
-                                </div>
-
                             </div>
-                        </div>
                         
                     <div className='row members__title'>Miembros Destacados</div>
-                    
                         <div className='row members__caoticos'>
                             <div className='col-3 players_general_container'>
-
+                                   <CaoticoComponent id='Rafa' />
+                                   <CaoticoComponent id='Barri' />
+                                   <CaoticoComponent id='Vago' />
+                                   <CaoticoComponent id='Shin' />      
                             </div>
                         </div>
-
-                            <span />
-                        {/* Span divisor para un nuevo grupo de 4 miembros */}
                 </div>
+
         </div>
      );
 }
