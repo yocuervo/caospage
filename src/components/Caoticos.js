@@ -14,13 +14,15 @@ import fotoVago from '../images/memb/member_vago.png';
 import audioVago from '../sounds/Vago.mp3';
 import fotoShin from '../images/memb/member_shin.png';
 import audioShin from '../sounds/Shin.mp3';
+import fotoJune from '../images/memb/member_june.png';
+import audioJune from '../sounds/June.mp3';
 
 const caoticos = [
         {
             name: 'Tigre',
             id: 'Tigre',
             pic: fotoTigre,
-            sound: audioTigre,
+            sound: new Audio(audioTigre),
             phrases: [
                 'Te dicta, y no es la tarea.',
                 'Toma mucho, pero no esta tan tan taan mal.',
@@ -110,6 +112,18 @@ const caoticos = [
                 'Tan diminuta como letal.',
                 'Deditos cortos pero Aim largo.',
                 'Auspiciada por chizitos y papitas "Ruidolin".',
+            ]
+        },
+        {
+            name: 'June',
+            id: 'June',
+            pic: fotoJune,
+            sound: new Audio(audioJune),
+            phrases: [
+                'Desde centroamerica y con un ping de mierda.. pero Presente!',
+                'Desaparece del discord mas rapido que Batman cuando te distraes.',
+                'Su nivel de tranquilidad nerfea sus insultos.',
+                '.',
             ]
         }
     ];

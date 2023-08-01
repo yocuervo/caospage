@@ -41,11 +41,15 @@ function Members() {
                         
                     <div className='row members__title'>Miembros Destacados</div>
                         <div className='row members__caoticos'>
+                            {/* Por cada Div cargar solamente a 4 Caoticos */}
                             <div className='col-3 players_general_container'>
                                    <CaoticoComponent id='Rafa' />
                                    <CaoticoComponent id='Barri' />
                                    <CaoticoComponent id='Vago' />
                                    <CaoticoComponent id='Shin' />      
+                            </div>
+                            <div className='col-3 players_general_container'>
+                                   <CaoticoComponent id='June' />  
                             </div>
                         </div>
                 </div>
