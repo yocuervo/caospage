@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/caospage/static/css/main.8ede0a0d.css",
-    "main.js": "/caospage/static/js/main.183215a3.js",
+    "main.css": "/caospage/static/css/main.95d96974.css",
+    "main.js": "/caospage/static/js/main.7ee2176a.js",
     "static/media/member_cuervo.png": "/caospage/static/media/member_cuervo.166d11a8cd77c0ef440b.png",
     "static/media/member_barri.png": "/caospage/static/media/member_barri.6b2c7839625f16e656f5.png",
+    "static/media/member_shin.png": "/caospage/static/media/member_shin.e5a2c57638e99f3ebf00.png",
+    "static/media/member_june.png": "/caospage/static/media/member_june.35f76c5a3dcbd0f4e57d.png",
     "static/media/member_vago.png": "/caospage/static/media/member_vago.e051c03cc803f1dbf551.png",
     "static/media/member_fibe.png": "/caospage/static/media/member_fibe.9c80ad1c7c76236f527e.png",
     "static/media/member_rafa.png": "/caospage/static/media/member_rafa.d2d609247a49f5db93aa.png",
@@ -14,6 +16,7 @@
     "static/media/games_iron.png": "/caospage/static/media/games_iron.a8f6a6c3a55b5c228c4e.png",
     "static/media/fun.png": "/caospage/static/media/fun.b8df4d92d5637a5b0737.png",
     "static/media/games_rainbow.png": "/caospage/static/media/games_rainbow.f6ee060481e45de2d9ff.png",
+    "static/media/Shin.mp3": "/caospage/static/media/Shin.795660fa7b0cc1a15fe4.mp3",
     "static/media/games_assassins.png": "/caospage/static/media/games_assassins.bb02c976a8741e8f9c4d.png",
     "static/media/Meet05.png": "/caospage/static/media/Meet05.e419e6f331ba0ff5b2a5.png",
     "static/media/Vago.mp3": "/caospage/static/media/Vago.28479dc8f411c54cef44.mp3",
@@ -26,6 +29,7 @@
     "static/media/Meet08.png": "/caospage/static/media/Meet08.929cb2370af618827f7e.png",
     "static/media/logo_redes.png": "/caospage/static/media/logo_redes.01592db0ee4c7178da72.png",
     "static/media/Meet02.png": "/caospage/static/media/Meet02.cc504698b58e91953fb3.png",
+    "static/media/June.mp3": "/caospage/static/media/June.8d06c332861f9c2bbdb6.mp3",
     "static/media/Meet00.png": "/caospage/static/media/Meet00.cb62a670be4819f91d8d.png",
     "static/media/Meet03.png": "/caospage/static/media/Meet03.568669a72b42fb950c6b.png",
     "static/media/Meet04.png": "/caospage/static/media/Meet04.daebafe541439b96921a.png",
@@ -41,11 +45,11 @@
     "static/media/logo_uno.png": "/caospage/static/media/logo_uno.2acf000ce0a51d27024a.png",
     "static/media/logo_mail.png": "/caospage/static/media/logo_mail.ca82bb818cc0cc8258f8.png",
     "index.html": "/caospage/index.html",
-    "main.8ede0a0d.css.map": "/caospage/static/css/main.8ede0a0d.css.map",
-    "main.183215a3.js.map": "/caospage/static/js/main.183215a3.js.map"
+    "main.95d96974.css.map": "/caospage/static/css/main.95d96974.css.map",
+    "main.7ee2176a.js.map": "/caospage/static/js/main.7ee2176a.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ede0a0d.css",
-    "static/js/main.183215a3.js"
+    "static/css/main.95d96974.css",
+    "static/js/main.7ee2176a.js"
   ]
 }
