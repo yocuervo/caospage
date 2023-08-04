@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import caoticos from './Caoticos';
-import './styles/CaoticoComponent.css';
+import './styles/caoticoComponent.css';
 
-const CaoticoComponent = ({ id, activeAudio, setActiveAudio }) => {
+const CaoticoComponent = ({ id, activeAudio, setActiveAudio, className }) => {
   const caotico = caoticos.find((caotico) => caotico.id === id);
   const [isPlaying, setIsPlaying] = useState(false);
 
@@ -29,7 +29,7 @@ const CaoticoComponent = ({ id, activeAudio, setActiveAudio }) => {
   const isButtonDisabled = activeAudio && activeAudio.id !== id && activeAudio.isPlaying;
 
   return (
-    <div key={id} className='player__container'>
+    <div key={id} className={`player__container ${className}`}>
       <img src={caotico.pic} alt={`Foto de ${caotico.name}`} />
       <div className='members__phrases'>
         {caotico.phrases.map((phrase, i) => (

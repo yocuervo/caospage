@@ -34,24 +34,25 @@ function Members() {
 
                     <div className='row members__title'>Oficiales</div>
                         <div className='row members__cupula'>
-                                <div className='col-4 players_general_container'>   
-                                    <CaoticoComponent id='Nico' activeAudio={activeAudio} setActiveAudio={setActiveAudio} />
-                                    <CaoticoComponent id='Cuervo' activeAudio={activeAudio} setActiveAudio={setActiveAudio} />
-                                    <CaoticoComponent id='Fibe' activeAudio={activeAudio} setActiveAudio={setActiveAudio} /> 
-                                </div>
+                            <div className='col-4 players_general_container'>   
+                                    <CaoticoComponent id='Nico' activeAudio={activeAudio} setActiveAudio={setActiveAudio} className='mt-4' />
+                                    <CaoticoComponent id='Cuervo' activeAudio={activeAudio} setActiveAudio={setActiveAudio} className='mb-4' />
+                                    <CaoticoComponent id='Fibe' activeAudio={activeAudio} setActiveAudio={setActiveAudio} className='mt-4' />
                             </div>
+                        </div>
                         
                     <div className='row members__title'>Miembros Destacados</div>
                         <div className='row members__caoticos'>
                             {/* Por cada Div cargar solamente a 4 Caoticos */}
                             <div className='col-3 players_general_container'>
-                                   <CaoticoComponent id='Rafa' activeAudio={activeAudio} setActiveAudio={setActiveAudio} />
-                                   <CaoticoComponent id='Barri' activeAudio={activeAudio} setActiveAudio={setActiveAudio} />
-                                   <CaoticoComponent id='Vago' activeAudio={activeAudio} setActiveAudio={setActiveAudio} />
-                                   <CaoticoComponent id='Shin' activeAudio={activeAudio} setActiveAudio={setActiveAudio} />      
+                                <CaoticoComponent id='Rafa' activeAudio={activeAudio} setActiveAudio={setActiveAudio} />
+                                <CaoticoComponent id='June' activeAudio={activeAudio} setActiveAudio={setActiveAudio} />
+                                <CaoticoComponent id='Barri' activeAudio={activeAudio} setActiveAudio={setActiveAudio} />
+                                <CaoticoComponent id='Amun' activeAudio={activeAudio} setActiveAudio={setActiveAudio} />             
                             </div>
                             <div className='col-3 players_general_container'>
-                                   <CaoticoComponent id='June' activeAudio={activeAudio} setActiveAudio={setActiveAudio} />  
+                                <CaoticoComponent id='Vago' activeAudio={activeAudio} setActiveAudio={setActiveAudio} />
+                                <CaoticoComponent id='Shin' activeAudio={activeAudio} setActiveAudio={setActiveAudio} />
                             </div>
                         </div>
                 </div>

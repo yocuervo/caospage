@@ -16,6 +16,8 @@ import fotoShin from '../images/memb/member_shin.png';
 import audioShin from '../sounds/Shin.mp3';
 import fotoJune from '../images/memb/member_june.png';
 import audioJune from '../sounds/June.mp3';
+import fotoAmun from '../images/memb/member_amun.png';
+import audioAmun from '../sounds/Amun.mp3';
 
 const caoticos = [
         {
@@ -120,10 +122,22 @@ const caoticos = [
             pic: fotoJune,
             sound: new Audio(audioJune),
             phrases: [
-                'Desde centroamerica y con un ping de mierda.. pero Presente!',
-                'Desaparece del discord mas rapido que Batman cuando te distraes.',
-                'Su nivel de tranquilidad nerfea sus insultos.',
-                '.',
+                'Centroamericano, ping de mrd pero Presente!',
+                'Desaparece del ds mas rapido que Batman cuando te distraes.',
+                'Su nivel de paz nerfea sus insultos.',
+                'De June a Junemalteco… De Guatepior al Mundo',
+            ]
+        },
+        {
+            name: 'Amun',
+            id: 'Amun',
+            pic: fotoAmun,
+            sound: new Audio(audioAmun),
+            phrases: [
+                'Tankea en la vida real.',
+                'Es Alto, alto en contraste, peso y buena onda.',
+                'De dia es Amun... De noche, Roncamilo.',
+                'Su heterosexualidad esta mas perdida que su aim.',
             ]
         }
     ];

@@ -59,7 +59,6 @@
 /* Data personalizada de Cada miembro */
 
 .players_general_container {
-    justify-content: center;
     width: 100%;
     display: flex;
     padding-top: 2rem;
