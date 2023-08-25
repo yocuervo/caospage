@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/caospage/static/css/main.49dad188.css",
-    "main.js": "/caospage/static/js/main.dc7e3189.js",
+    "main.js": "/caospage/static/js/main.4d3dd232.js",
     "static/media/member_cuervo.png": "/caospage/static/media/member_cuervo.166d11a8cd77c0ef440b.png",
     "static/media/member_barri.png": "/caospage/static/media/member_barri.6b2c7839625f16e656f5.png",
     "static/media/member_shin.png": "/caospage/static/media/member_shin.e5a2c57638e99f3ebf00.png",
@@ -27,10 +27,10 @@
     "static/media/funTwo.png": "/caospage/static/media/funTwo.88136d1ef963da816114.png",
     "static/media/logo_integrantes.png": "/caospage/static/media/logo_integrantes.f4cd105206cd7dbde543.png",
     "static/media/Amun.mp3": "/caospage/static/media/Amun.1cee285604bc2bd63c5a.mp3",
+    "static/media/Esteban.mp3": "/caospage/static/media/Esteban.a989a176d717cdf7e0d9.mp3",
     "static/media/Meet07.png": "/caospage/static/media/Meet07.124cb4d2a1055de90529.png",
     "static/media/logo_reunion.png": "/caospage/static/media/logo_reunion.bcbc21b00b2eb57c64bb.png",
     "static/media/Meet06.png": "/caospage/static/media/Meet06.48b5b3013d1bb13171c5.png",
-    "static/media/Esteban.mp3": "/caospage/static/media/Esteban.31f070b8b9896e9b405b.mp3",
     "static/media/logo_juegos.png": "/caospage/static/media/logo_juegos.9fccd4e76cc0e59fb24d.png",
     "static/media/Meet08.png": "/caospage/static/media/Meet08.929cb2370af618827f7e.png",
     "static/media/logo_redes.png": "/caospage/static/media/logo_redes.01592db0ee4c7178da72.png",
@@ -52,10 +52,10 @@
     "static/media/logo_mail.png": "/caospage/static/media/logo_mail.ca82bb818cc0cc8258f8.png",
     "index.html": "/caospage/index.html",
     "main.49dad188.css.map": "/caospage/static/css/main.49dad188.css.map",
-    "main.dc7e3189.js.map": "/caospage/static/js/main.dc7e3189.js.map"
+    "main.4d3dd232.js.map": "/caospage/static/js/main.4d3dd232.js.map"
   },
   "entrypoints": [
     "static/css/main.49dad188.css",
-    "static/js/main.dc7e3189.js"
+    "static/js/main.4d3dd232.js"
   ]
 }
