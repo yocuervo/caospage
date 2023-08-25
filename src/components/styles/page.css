@@ -1,6 +1,6 @@
 .page__container {
     width: 100%;
-    min-width: 320px;
+    min-width: 720px;
     height: 100%;
     background-color: black;
     overflow-x: hidden !important;
