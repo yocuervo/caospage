@@ -53,6 +53,8 @@ function Members() {
                             <div className='col-3 players_general_container'>
                                 <CaoticoComponent id='Vago' activeAudio={activeAudio} setActiveAudio={setActiveAudio} />
                                 <CaoticoComponent id='Shin' activeAudio={activeAudio} setActiveAudio={setActiveAudio} />
+                                <CaoticoComponent id='Bolas' activeAudio={activeAudio} setActiveAudio={setActiveAudio} />
+                                <CaoticoComponent id='Esteban' activeAudio={activeAudio} setActiveAudio={setActiveAudio} />
                             </div>
                         </div>
                 </div>

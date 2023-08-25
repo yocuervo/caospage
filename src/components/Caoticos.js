@@ -18,6 +18,10 @@ import fotoJune from '../images/memb/member_june.png';
 import audioJune from '../sounds/June.mp3';
 import fotoAmun from '../images/memb/member_amun.png';
 import audioAmun from '../sounds/Amun.mp3';
+import fotoBolas from '../images/memb/member_bolas.png';
+import audioBolas from '../sounds/Bolas.mp3';
+import fotoEsteban from '../images/memb/member_esteban.png';
+import audioEsteban from '../sounds/Esteban.mp3';
 
 const caoticos = [
         {
@@ -138,6 +142,30 @@ const caoticos = [
                 'Es Alto, alto en contraste, peso y buena onda.',
                 'De dia es Amun... De noche, Roncamilo.',
                 'Su heterosexualidad esta mas perdida que su aim.',
+            ]
+        },
+        {
+            name: 'Bolas',
+            id: 'Bolas',
+            pic: fotoBolas,
+            sound: new Audio(audioBolas),
+            phrases: [
+                'Hizo la escuela en… no, no hizo la escuela.',
+                'Es el chileno más entendible de todos.',
+                'Tiene una técnica de pañales explosivos infalible.',
+                'Su salud rectal es más importante que los eventos de CAOS.',
+            ]
+        },
+        {
+            name: 'Esteban',
+            id: 'Esteban',
+            pic: fotoEsteban,
+            sound: new Audio(audioEsteban),
+            phrases: [
+                '.',
+                '.',
+                '.',
+                '.',
             ]
         }
     ];
