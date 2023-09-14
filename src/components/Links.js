@@ -23,6 +23,10 @@ function youTubeNico () {
     window.open('https://www.youtube.com/user/LacerdaD13');
 };
 
+function twitchFibe () {
+    window.open('https://www.twitch.tv/fibe_55');
+};
+
 function Links() {
     return (
             <div className='links__container'>
@@ -37,9 +41,10 @@ function Links() {
                     </div>
                 <div className='links__clan'>Redes de Miembros</div>
                     <div className='links__buttons'>
-                        <button className='btn btn-outline-dark' onClick={ youTubeCuervo }>Yo.Cuervo</button>
-                        <button className='btn btn-outline-dark' onClick={ youTubeTigre }>TigreSerrano</button>
-                        <button className='btn btn-outline-dark' onClick={ youTubeNico }>NicoThePig</button>
+                        <button className='btn btn-outline-dark' onClick={ youTubeCuervo }><b>Yo.Cuervo</b><br />Youtube</button>
+                        <button className='btn btn-outline-dark' onClick={ youTubeTigre }><b>TigreSerrano</b><br />Youtube</button>
+                        <button className='btn btn-outline-dark' onClick={ youTubeNico }><b>NicoThePig</b><br />Youtube</button>
+                        <button className='btn btn-outline-dark' onClick={ twitchFibe }><b>Fibe55</b><br />Twitch</button>
                     </div>
             </div>
      );

@@ -162,10 +162,10 @@ const caoticos = [
             pic: fotoEsteban,
             sound: new Audio(audioEsteban),
             phrases: [
-                '.',
-                '.',
-                '.',
-                '.',
+                'Venera al Dios "Zonda" para poder jugar.',
+                'Aplica "del orto" como referencia para todo.',
+                'Confunde especies animales con mucha facilidad.',
+                'Revive el "Secreto de la montaña" pero con una cabra y wifi',
             ]
         }
     ];

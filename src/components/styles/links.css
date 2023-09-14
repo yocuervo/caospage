@@ -26,6 +26,7 @@
 }
 
 .links__buttons > button {
+    min-width: 15vh;
     color: rgb(141, 27, 27);
     padding: 1%;
     margin: 2%;
