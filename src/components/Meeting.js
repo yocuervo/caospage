@@ -16,6 +16,8 @@ import meet5 from '../images/meet/Meet05.png';
 import meet6 from '../images/meet/Meet06.png';
 import meet7 from '../images/meet/Meet07.png';
 import meet8 from '../images/meet/Meet08.png';
+import meet9 from '../images/meet/Meet09.png';
+import meet10 from '../images/meet/Meet10.png';
 
 import finger from '../images/misc/hand.gif';
 
@@ -107,6 +109,16 @@ function Meeting() {
                                 <SwiperSlide className='meet_pic_container'>
                                     <div className='meet_pic_pic'>
                                         <img alt='Foto de Juntada' src={meet8} />
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide className='meet_pic_container'>
+                                    <div className='meet_pic_pic'>
+                                        <img alt='Foto de Juntada' src={meet9} />
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide className='meet_pic_container'>
+                                    <div className='meet_pic_pic'>
+                                        <img alt='Foto de Juntada' src={meet10} />
                                     </div>
                                 </SwiperSlide>
                                 
